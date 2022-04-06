@@ -1,7 +1,11 @@
 {
   "api_key": "cqqmcLw28krG9Fl7V3kg",
-  "initial_bounds": [-7.9, 49.5, 2.2, 59.4],
+  "initial_bounds": [31.3, 34.3, 35.2, 36.0],
   "data": [
     { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
+  ],
+  "facets": [
+    { "name": "region", "path": [ "properties", "region" ] },
+    { "name": "location", "path": [ "properties", "location" ] }
   ]
 }

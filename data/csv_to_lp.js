@@ -8,7 +8,9 @@ const sourceData = Papa.parse(csv, { header: true });
 const traces = sourceData.data.reduce((traces, record) => {
   const village = record['Village name'];
   const region = record['geographic region'];
-  const location = record['location'];
+
+  // Region can be 'N', 'S' or 'N/S' -> split!
+  const location = record['location'].split('/');
 
   const { decimalLatitude, decimalLongitude } = convert(record['geo-coordinates']);
 

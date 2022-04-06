@@ -8,7 +8,9 @@
         "title": "AGIA",
         "village": "AGIA",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 253,
           "greek_cypriot": 0,
@@ -31,7 +33,9 @@
         "title": "AGIA",
         "village": "AGIA",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 413,
           "greek_cypriot": 0,
@@ -54,7 +58,9 @@
         "title": "AGIA",
         "village": "AGIA",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 418,
           "greek_cypriot": 0,
@@ -77,7 +83,9 @@
         "title": "AGIA",
         "village": "AGIA",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 529,
           "greek_cypriot": 0,
@@ -100,7 +108,9 @@
         "title": "AGIA",
         "village": "AGIA",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 590,
           "greek_cypriot": 0,
@@ -123,7 +133,9 @@
         "title": "Agia Marina",
         "village": "Agia Marina",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 38,
           "greek_cypriot": 0,
@@ -146,7 +158,9 @@
         "title": "Agia Marina",
         "village": "Agia Marina",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 37,
           "greek_cypriot": 0,
@@ -169,7 +183,9 @@
         "title": "Agia Marina",
         "village": "Agia Marina",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 65,
           "greek_cypriot": 0,
@@ -192,7 +208,9 @@
         "title": "Agia Marina",
         "village": "Agia Marina",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -215,7 +233,9 @@
         "title": "Agia Marina",
         "village": "Agia Marina",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -238,7 +258,9 @@
         "title": "AGLANGIA",
         "village": "AGLANGIA",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 31,
           "greek_cypriot": 488,
@@ -261,7 +283,9 @@
         "title": "AGLANGIA",
         "village": "AGLANGIA",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 131,
           "greek_cypriot": 1877,
@@ -284,7 +308,9 @@
         "title": "AGLANGIA",
         "village": "AGLANGIA",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 316,
           "greek_cypriot": 3593,
@@ -307,7 +333,9 @@
         "title": "AGLANGIA",
         "village": "AGLANGIA",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 5730,
@@ -330,7 +358,9 @@
         "title": "AGLANGIA",
         "village": "AGLANGIA",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 18953,
@@ -353,7 +383,9 @@
         "title": "AGIOS SOZOMENOS",
         "village": "AGIOS SOZOMENOS",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 68,
           "greek_cypriot": 44,
@@ -376,7 +408,9 @@
         "title": "AGIOS SOZOMENOS",
         "village": "AGIOS SOZOMENOS",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 128,
           "greek_cypriot": 36,
@@ -399,7 +433,9 @@
         "title": "AGIOS SOZOMENOS",
         "village": "AGIOS SOZOMENOS",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 172,
           "greek_cypriot": 25,
@@ -422,7 +458,9 @@
         "title": "AGIOS SOZOMENOS",
         "village": "AGIOS SOZOMENOS",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -445,7 +483,9 @@
         "title": "AGIOS SOZOMENOS",
         "village": "AGIOS SOZOMENOS",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -468,7 +508,9 @@
         "title": "AGIOS VASILEIOS",
         "village": "AGIOS VASILEIOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 60,
           "greek_cypriot": 182,
@@ -491,7 +533,9 @@
         "title": "AGIOS VASILEIOS",
         "village": "AGIOS VASILEIOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 74,
           "greek_cypriot": 341,
@@ -514,7 +558,9 @@
         "title": "AGIOS VASILEIOS",
         "village": "AGIOS VASILEIOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 117,
           "greek_cypriot": 492,
@@ -537,7 +583,9 @@
         "title": "AGIOS VASILEIOS",
         "village": "AGIOS VASILEIOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 611,
@@ -560,7 +608,9 @@
         "title": "AGIOS VASILEIOS",
         "village": "AGIOS VASILEIOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -583,7 +633,9 @@
         "title": "DALI",
         "village": "DALI",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 120,
           "greek_cypriot": 989,
@@ -606,7 +658,9 @@
         "title": "DALI",
         "village": "DALI",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 151,
           "greek_cypriot": 1814,
@@ -629,7 +683,9 @@
         "title": "DALI",
         "village": "DALI",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 206,
           "greek_cypriot": 2403,
@@ -652,7 +708,9 @@
         "title": "DALI",
         "village": "DALI",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 74,
           "greek_cypriot": 2978,
@@ -675,7 +733,9 @@
         "title": "DALI",
         "village": "DALI",
         "region": "Nicosia",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 5834,
@@ -698,7 +758,9 @@
         "title": "GEROLAKKOS",
         "village": "GEROLAKKOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 10,
           "greek_cypriot": 575,
@@ -721,7 +783,9 @@
         "title": "GEROLAKKOS",
         "village": "GEROLAKKOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 36,
           "greek_cypriot": 1347,
@@ -744,7 +808,9 @@
         "title": "GEROLAKKOS",
         "village": "GEROLAKKOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 2,
           "greek_cypriot": 1863,
@@ -767,7 +833,9 @@
         "title": "GEROLAKKOS",
         "village": "GEROLAKKOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 2455,
@@ -790,7 +858,9 @@
         "title": "GEROLAKKOS",
         "village": "GEROLAKKOS",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 2539,
           "greek_cypriot": 0,
@@ -813,7 +883,10 @@
         "title": "NICOSIA/ LEFKOSİA",
         "village": "NICOSIA/ LEFKOSİA",
         "region": "Nicosia",
-        "location": "N/S",
+        "location": [
+          "N",
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 5992,
           "greek_cypriot": 8489,
@@ -836,7 +909,10 @@
         "title": "NICOSIA/ LEFKOSİA",
         "village": "NICOSIA/ LEFKOSİA",
         "region": "Nicosia",
-        "location": "N/S",
+        "location": [
+          "N",
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 10330,
           "greek_cypriot": 20768,
@@ -859,7 +935,10 @@
         "title": "NICOSIA/ LEFKOSİA",
         "village": "NICOSIA/ LEFKOSİA",
         "region": "Nicosia",
-        "location": "N/S",
+        "location": [
+          "N",
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 14686,
           "greek_cypriot": 27645,
@@ -882,7 +961,10 @@
         "title": "NICOSIA/ LEFKOSİA",
         "village": "NICOSIA/ LEFKOSİA",
         "region": "Nicosia",
-        "location": "N/S",
+        "location": [
+          "N",
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": null,
           "greek_cypriot": null,
@@ -905,7 +987,10 @@
         "title": "NICOSIA/ LEFKOSİA",
         "village": "NICOSIA/ LEFKOSİA",
         "region": "Nicosia",
-        "location": "N/S",
+        "location": [
+          "N",
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": null,
           "greek_cypriot": null,
@@ -931,7 +1016,9 @@
         "title": "MORPHOU",
         "village": "MORPHOU",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 114,
           "greek_cypriot": 2648,
@@ -954,7 +1041,9 @@
         "title": "MORPHOU",
         "village": "MORPHOU",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 179,
           "greek_cypriot": 5267,
@@ -977,7 +1066,9 @@
         "title": "MORPHOU",
         "village": "MORPHOU",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 123,
           "greek_cypriot": 6480,
@@ -1000,7 +1091,9 @@
         "title": "MORPHOU",
         "village": "MORPHOU",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 7465,
@@ -1023,7 +1116,9 @@
         "title": "MORPHOU",
         "village": "MORPHOU",
         "region": "Nicosia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 12391,
           "greek_cypriot": 0,
@@ -1046,7 +1141,9 @@
         "title": "LIMASSOL/LEMOSSOS",
         "village": "LIMASSOL/LEMOSSOS",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 1937,
           "greek_cypriot": 6361,
@@ -1069,7 +1166,9 @@
         "title": "LIMASSOL/LEMOSSOS",
         "village": "LIMASSOL/LEMOSSOS",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 3444,
           "greek_cypriot": 18630,
@@ -1092,7 +1191,9 @@
         "title": "LIMASSOL/LEMOSSOS",
         "village": "LIMASSOL/LEMOSSOS",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 6115,
           "greek_cypriot": 31263,
@@ -1115,7 +1216,9 @@
         "title": "LIMASSOL/LEMOSSOS",
         "village": "LIMASSOL/LEMOSSOS",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 8000,
           "greek_cypriot": 34206,
@@ -1138,7 +1241,9 @@
         "title": "LIMASSOL/LEMOSSOS",
         "village": "LIMASSOL/LEMOSSOS",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 94250,
@@ -1161,7 +1266,9 @@
         "title": "EPISKOPI",
         "village": "EPISKOPI",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 547,
           "greek_cypriot": 345,
@@ -1184,7 +1291,9 @@
         "title": "EPISKOPI",
         "village": "EPISKOPI",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 659,
           "greek_cypriot": 572,
@@ -1207,7 +1316,9 @@
         "title": "EPISKOPI",
         "village": "EPISKOPI",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 1144,
           "greek_cypriot": 817,
@@ -1230,7 +1341,9 @@
         "title": "EPISKOPI",
         "village": "EPISKOPI",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 1596,
           "greek_cypriot": 844,
@@ -1253,7 +1366,9 @@
         "title": "EPISKOPI",
         "village": "EPISKOPI",
         "region": "Limassol",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 3076,
@@ -1276,7 +1391,9 @@
         "title": "PAPHOS",
         "village": "PAPHOS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 1564,
           "greek_cypriot": 1570,
@@ -1299,7 +1416,9 @@
         "title": "PAPHOS",
         "village": "PAPHOS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 2147,
           "greek_cypriot": 3617,
@@ -1322,7 +1441,9 @@
         "title": "PAPHOS",
         "village": "PAPHOS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 2851,
           "greek_cypriot": 6232,
@@ -1345,7 +1466,9 @@
         "title": "PAPHOS",
         "village": "PAPHOS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": null,
           "greek_cypriot": null,
@@ -1371,7 +1494,9 @@
         "title": "PAPHOS",
         "village": "PAPHOS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 26530,
@@ -1394,7 +1519,9 @@
         "title": "GEROSKIPOU",
         "village": "GEROSKIPOU",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 119,
           "greek_cypriot": 569,
@@ -1417,7 +1544,9 @@
         "title": "GEROSKIPOU",
         "village": "GEROSKIPOU",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 147,
           "greek_cypriot": 1225,
@@ -1440,7 +1569,9 @@
         "title": "GEROSKIPOU",
         "village": "GEROSKIPOU",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 170,
           "greek_cypriot": 1552,
@@ -1463,7 +1594,9 @@
         "title": "GEROSKIPOU",
         "village": "GEROSKIPOU",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 2021,
@@ -1486,7 +1619,9 @@
         "title": "GEROSKIPOU",
         "village": "GEROSKIPOU",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 5509,
@@ -1509,7 +1644,9 @@
         "title": "POLIS",
         "village": "POLIS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 256,
           "greek_cypriot": 344,
@@ -1532,7 +1669,9 @@
         "title": "POLIS",
         "village": "POLIS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 427,
           "greek_cypriot": 771,
@@ -1555,7 +1694,9 @@
         "title": "POLIS",
         "village": "POLIS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 664,
           "greek_cypriot": 963,
@@ -1578,7 +1719,9 @@
         "title": "POLIS",
         "village": "POLIS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 714,
           "greek_cypriot": 747,
@@ -1601,7 +1744,9 @@
         "title": "POLIS",
         "village": "POLIS",
         "region": "Paphos",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 1262,
@@ -1624,7 +1769,9 @@
         "title": "RIZOKARPASSO",
         "village": "RIZOKARPASSO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 16,
           "greek_cypriot": 2283,
@@ -1647,7 +1794,9 @@
         "title": "RIZOKARPASSO",
         "village": "RIZOKARPASSO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 11,
           "greek_cypriot": 4052,
@@ -1670,7 +1819,9 @@
         "title": "RIZOKARPASSO",
         "village": "RIZOKARPASSO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 2,
           "greek_cypriot": 3151,
@@ -1693,7 +1844,9 @@
         "title": "RIZOKARPASSO",
         "village": "RIZOKARPASSO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 2626,
@@ -1719,7 +1872,9 @@
         "title": "RIZOKARPASSO",
         "village": "RIZOKARPASSO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 1935,
           "greek_cypriot": 0,
@@ -1742,7 +1897,9 @@
         "title": "TRIKOMO",
         "village": "TRIKOMO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 15,
           "greek_cypriot": 1247,
@@ -1765,7 +1922,9 @@
         "title": "TRIKOMO",
         "village": "TRIKOMO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 6,
           "greek_cypriot": 2081,
@@ -1788,7 +1947,9 @@
         "title": "TRIKOMO",
         "village": "TRIKOMO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 7,
           "greek_cypriot": 2188,
@@ -1811,7 +1972,9 @@
         "title": "TRIKOMO",
         "village": "TRIKOMO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 2323,
           "greek_cypriot": 0,
@@ -1834,7 +1997,9 @@
         "title": "TRIKOMO",
         "village": "TRIKOMO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 3657,
           "greek_cypriot": 0,
@@ -1857,7 +2022,9 @@
         "title": "AKANTHOU",
         "village": "AKANTHOU",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 51,
           "greek_cypriot": 1352,
@@ -1880,7 +2047,9 @@
         "title": "AKANTHOU",
         "village": "AKANTHOU",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 8,
           "greek_cypriot": 1782,
@@ -1903,7 +2072,9 @@
         "title": "AKANTHOU",
         "village": "AKANTHOU",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 1507,
@@ -1926,7 +2097,9 @@
         "title": "AKANTHOU",
         "village": "AKANTHOU",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 1294,
@@ -1949,7 +2122,9 @@
         "title": "AKANTHOU",
         "village": "AKANTHOU",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 1160,
           "greek_cypriot": 0,
@@ -1972,7 +2147,9 @@
         "title": "LEFKONOİKO",
         "village": "LEFKONOİKO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 118,
           "greek_cypriot": 1713,
@@ -1995,7 +2172,9 @@
         "title": "LEFKONOİKO",
         "village": "LEFKONOİKO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 126,
           "greek_cypriot": 2470,
@@ -2018,7 +2197,9 @@
         "title": "LEFKONOİKO",
         "village": "LEFKONOİKO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 3,
           "greek_cypriot": 2355,
@@ -2041,7 +2222,9 @@
         "title": "LEFKONOİKO",
         "village": "LEFKONOİKO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 2116,
@@ -2064,7 +2247,9 @@
         "title": "LEFKONOİKO",
         "village": "LEFKONOİKO",
         "region": "Famagusta",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 1309,
           "greek_cypriot": 0,
@@ -2087,7 +2272,9 @@
         "title": "KYRENIA",
         "village": "KYRENIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 487,
           "greek_cypriot": 849,
@@ -2110,7 +2297,9 @@
         "title": "KYRENIA",
         "village": "KYRENIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 572,
           "greek_cypriot": 2204,
@@ -2133,7 +2322,9 @@
         "title": "KYRENIA",
         "village": "KYRENIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 696,
           "greek_cypriot": 2373,
@@ -2156,7 +2347,9 @@
         "title": "KYRENIA",
         "village": "KYRENIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 1000,
           "greek_cypriot": 2635,
@@ -2179,7 +2372,9 @@
         "title": "KYRENIA",
         "village": "KYRENIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 23839,
           "greek_cypriot": 0,
@@ -2202,7 +2397,9 @@
         "title": "KORMAKITI",
         "village": "KORMAKITI",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 10,
           "greek_cypriot": 0,
@@ -2225,7 +2422,9 @@
         "title": "KORMAKITI",
         "village": "KORMAKITI",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 5,
@@ -2248,7 +2447,9 @@
         "title": "KORMAKITI",
         "village": "KORMAKITI",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 18,
@@ -2271,7 +2472,9 @@
         "title": "KORMAKITI",
         "village": "KORMAKITI",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -2294,7 +2497,9 @@
         "title": "KORMAKITI",
         "village": "KORMAKITI",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -2317,7 +2522,9 @@
         "title": "ASOMATOS",
         "village": "ASOMATOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -2340,7 +2547,9 @@
         "title": "ASOMATOS",
         "village": "ASOMATOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 5,
@@ -2363,7 +2572,9 @@
         "title": "ASOMATOS",
         "village": "ASOMATOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 9,
@@ -2386,7 +2597,9 @@
         "title": "ASOMATOS",
         "village": "ASOMATOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -2409,7 +2622,9 @@
         "title": "ASOMATOS",
         "village": "ASOMATOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 82,
           "greek_cypriot": 0,
@@ -2432,7 +2647,9 @@
         "title": "KARPASEIA",
         "village": "KARPASEIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 67,
@@ -2455,7 +2672,9 @@
         "title": "KARPASEIA",
         "village": "KARPASEIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 4,
@@ -2478,7 +2697,9 @@
         "title": "KARPASEIA",
         "village": "KARPASEIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 3,
@@ -2501,7 +2722,9 @@
         "title": "KARPASEIA",
         "village": "KARPASEIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 0,
@@ -2524,7 +2747,9 @@
         "title": "KARPASEIA",
         "village": "KARPASEIA",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 89,
           "greek_cypriot": 0,
@@ -2547,7 +2772,9 @@
         "title": "LAPITHOS",
         "village": "LAPITHOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 269,
           "greek_cypriot": 2445,
@@ -2570,7 +2797,9 @@
         "title": "LAPITHOS",
         "village": "LAPITHOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 312,
           "greek_cypriot": 2997,
@@ -2593,7 +2822,9 @@
         "title": "LAPITHOS",
         "village": "LAPITHOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 370,
           "greek_cypriot": 3124,
@@ -2616,7 +2847,9 @@
         "title": "LAPITHOS",
         "village": "LAPITHOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 3196,
@@ -2639,7 +2872,9 @@
         "title": "LAPITHOS",
         "village": "LAPITHOS",
         "region": "Kyrenia",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 5658,
           "greek_cypriot": 0,
@@ -2662,7 +2897,9 @@
         "title": "LARNACA",
         "village": "LARNACA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 2004,
           "greek_cypriot": 5960,
@@ -2685,7 +2922,9 @@
         "title": "LARNACA",
         "village": "LARNACA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 2928,
           "greek_cypriot": 10605,
@@ -2708,7 +2947,9 @@
         "title": "LARNACA",
         "village": "LARNACA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 4058,
           "greek_cypriot": 13101,
@@ -2731,7 +2972,9 @@
         "title": "LARNACA",
         "village": "LARNACA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 4000,
           "greek_cypriot": 14914,
@@ -2754,7 +2997,9 @@
         "title": "LARNACA",
         "village": "LARNACA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 46666,
@@ -2777,7 +3022,9 @@
         "title": "LEFKARA",
         "village": "LEFKARA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 270,
           "greek_cypriot": 2055,
@@ -2800,7 +3047,9 @@
         "title": "LEFKARA",
         "village": "LEFKARA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 473,
           "greek_cypriot": 2530,
@@ -2823,7 +3072,9 @@
         "title": "LEFKARA",
         "village": "LEFKARA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 361,
           "greek_cypriot": 1714,
@@ -2846,7 +3097,9 @@
         "title": "LEFKARA",
         "village": "LEFKARA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 31,
           "greek_cypriot": 1330,
@@ -2869,7 +3122,9 @@
         "title": "LEFKARA",
         "village": "LEFKARA",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 0,
           "greek_cypriot": 1039,
@@ -2892,7 +3147,9 @@
         "title": "PERGAMOS",
         "village": "PERGAMOS",
         "region": "Larnaca",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 120,
           "greek_cypriot": 13,
@@ -2915,7 +3172,9 @@
         "title": "PERGAMOS",
         "village": "PERGAMOS",
         "region": "Larnaca",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 452,
           "greek_cypriot": 0,
@@ -2938,7 +3197,9 @@
         "title": "PERGAMOS",
         "village": "PERGAMOS",
         "region": "Larnaca",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 826,
           "greek_cypriot": 0,
@@ -2961,7 +3222,9 @@
         "title": "PERGAMOS",
         "village": "PERGAMOS",
         "region": "Larnaca",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 1190,
           "greek_cypriot": 0,
@@ -2984,7 +3247,9 @@
         "title": "PERGAMOS",
         "village": "PERGAMOS",
         "region": "Larnaca",
-        "location": "N",
+        "location": [
+          "N"
+        ],
         "stats": {
           "turkish_cypriot": 3403,
           "greek_cypriot": 0,
@@ -3007,7 +3272,9 @@
         "title": "AGIOS THEODOROS",
         "village": "AGIOS THEODOROS",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 380,
           "greek_cypriot": 396,
@@ -3030,7 +3297,9 @@
         "title": "AGIOS THEODOROS",
         "village": "AGIOS THEODOROS",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 701,
           "greek_cypriot": 700,
@@ -3053,7 +3322,9 @@
         "title": "AGIOS THEODOROS",
         "village": "AGIOS THEODOROS",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 685,
           "greek_cypriot": 525,
@@ -3076,7 +3347,9 @@
         "title": "AGIOS THEODOROS",
         "village": "AGIOS THEODOROS",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 732,
           "greek_cypriot": 459,
@@ -3099,7 +3372,9 @@
         "title": "AGIOS THEODOROS",
         "village": "AGIOS THEODOROS",
         "region": "Larnaca",
-        "location": "S",
+        "location": [
+          "S"
+        ],
         "stats": {
           "turkish_cypriot": 599,
           "greek_cypriot": 0,
