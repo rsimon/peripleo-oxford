@@ -101,14 +101,13 @@ const computeNestedFieldFacet = (items, facet, postFilter) => {
 export const computeFacetDistribution = (items, facet, postFilter) => {
   const { definition } = facet;
 
-  if (Array.isArray(definition)) {
+  // Temporary hack!
+  if (facet instanceof MetricFacet) {
+    return facet.computeFacetDistribution(items, postFilter);
+  } else if (Array.isArray(definition)) {
     return computeNestedFieldFacet(items, facet, postFilter);
   } else if (definition instanceof Function) {
-    return computeCustomFnFacet(items, facet, postFilter);  
-  
-  // Temporary hack!
-  } else if (facet instanceof MetricFacet) {
-    return facet.computeFacetDistribution(items, postFilter);
+    return computeCustomFnFacet(items, facet, postFilter);
   } else { 
     return computeSimpleFieldFacet(items, facet, postFilter);
   }

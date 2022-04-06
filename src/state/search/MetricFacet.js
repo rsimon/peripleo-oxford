@@ -10,6 +10,9 @@ export default class MetricFacet {
     this.name = name;
     this.type = type;
     this.path = path;
+
+    // Temporary hack
+    this.definition = path;
   } 
 
   computeFacetDistribution = (items, postFilter) => {

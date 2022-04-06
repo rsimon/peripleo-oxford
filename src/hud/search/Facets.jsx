@@ -119,7 +119,7 @@ const Facets = props => {
 
           {displayed.map(([label, count], idx) => 
             <motion.li 
-              key={label + idx}
+              key={label}
               className={currentFacetFilter &&
                 (currentFacetFilter.values.includes(label) ? 'p6o-filter-shown' : 'p6o-filter-hidden')}
               variants={childAnimation}
