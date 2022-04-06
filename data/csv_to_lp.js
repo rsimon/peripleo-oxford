@@ -24,9 +24,9 @@ const traces = sourceData.data.reduce((traces, record) => {
         region,
         location,
         stats: {
-          turkish_cypriot: parseInt(record[`${label} TC`]),
-          greek_cypriot: parseInt(record[`${label} GC`]),
-          arabic_cypriot: parseInt(record[`${label} AC`])
+          'Turkish Cypriot': parseInt(record[`${label} TC`]),
+          'Greek Cypriot': parseInt(record[`${label} GC`]),
+          'Arabic Cypriot': parseInt(record[`${label} AC`])
         }
       },
       geometry: {
