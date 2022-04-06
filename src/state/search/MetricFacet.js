@@ -30,6 +30,10 @@ export default class MetricFacet {
         ...item,
         _facet: {
           name: this.name,
+          // For testing
+          values: toSortedArray(stats)
+            .filter(([ , count]) => count > 0)
+            .map(t => t[0])
           // TODO weight = total no. of speakers
           // TODO how to express ratios?
         }
