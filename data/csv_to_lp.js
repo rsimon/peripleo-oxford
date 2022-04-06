@@ -17,6 +17,7 @@ const traces = sourceData.data.reduce((traces, record) => {
       type: 'Feature',
       '@id': `${village}_${label}`,
       properties: {
+        title: village,
         village,
         region,
         location,
