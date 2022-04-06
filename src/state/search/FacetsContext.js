@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 
 import { Facet } from './Facets';
+import MetricFacet from './MetricFacet';
 
 import useSearch from './useSearch';
 
@@ -31,6 +32,8 @@ export const FacetsContextProvider = props => {
       if ((typeof definition === 'string' || definition instanceof String)) {
         // Built-in facet
         return DEFAULT_FACETS.find(f => f.name === definition);
+      } else if (definition.type?.startsWith('metric')) {
+        return new MetricFacet(definition.name, definition.type, definition.path);
       } else if (definition.name && definition.path) {
         return new Facet(definition.name, definition.path, definition.condition);
       }

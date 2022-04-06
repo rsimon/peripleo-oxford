@@ -1,3 +1,5 @@
+import MetricFacet from "./MetricFacet";
+
 export class Facet {
 
   constructor(name, definition, condition) {
@@ -98,10 +100,16 @@ const computeNestedFieldFacet = (items, facet, postFilter) => {
 
 export const computeFacetDistribution = (items, facet, postFilter) => {
   const { definition } = facet;
-  if (Array.isArray(definition))
+
+  if (Array.isArray(definition)) {
     return computeNestedFieldFacet(items, facet, postFilter);
-  else if (definition instanceof Function)
-    return computeCustomFnFacet(items, facet, postFilter);
-  else 
+  } else if (definition instanceof Function) {
+    return computeCustomFnFacet(items, facet, postFilter);  
+  
+  // Temporary hack!
+  } else if (facet instanceof MetricFacet) {
+    return facet.computeFacetDistribution(items, postFilter);
+  } else { 
     return computeSimpleFieldFacet(items, facet, postFilter);
+  }
 }

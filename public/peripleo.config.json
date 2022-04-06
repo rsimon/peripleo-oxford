@@ -5,6 +5,7 @@
     { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
   ],
   "facets": [
+    { "name": "speakers", "type": "metric.sum", "path": [ "properties", "stats" ] },
     { "name": "region", "path": [ "properties", "region" ] },
     { "name": "location", "path": [ "properties", "location" ] },
     { "name": "when", "path": [ "when", "label" ] }
