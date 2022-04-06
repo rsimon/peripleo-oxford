@@ -6,6 +6,7 @@
   ],
   "facets": [
     { "name": "region", "path": [ "properties", "region" ] },
-    { "name": "location", "path": [ "properties", "location" ] }
+    { "name": "location", "path": [ "properties", "location" ] },
+    { "name": "when", "path": "when" }
   ]
 }
