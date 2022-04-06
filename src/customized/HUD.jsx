@@ -11,6 +11,7 @@ const CustomizedHUD = props => {
     availableFacets,
     clearFilter, 
     setFilter,
+    toggleFilter,
     setCategoryFacet 
   } = useSearch();
 
