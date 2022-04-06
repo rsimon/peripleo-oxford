@@ -43,7 +43,7 @@ export default class Filter {
     const facet = facets.find(f => f.name === this.facet);
 
     if (facet.type?.startsWith('metric')) 
-      return facet.evalMetricFacetFilter(this.values)
+      return facet.evalMetricFacetFilter(this.values);
     if (Array.isArray(facet.definition))
       return evalNestedFieldFilter(this.values, facet.definition);
     else if (facet.definition instanceof Function)
