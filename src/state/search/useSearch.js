@@ -27,6 +27,28 @@ const useSearch = () => {
       store.searchMappable(query) :
       store.getAllLocatedNodes();
 
+    // Hack!!
+    let countableProperties = [ 'Turkish Cypriot', 'Greek Cypriot', 'Arabic Cypriot' ];
+
+    const metricFilter = filters.find(f => f.type === 'metric.sum');
+    if (metricFilter)
+      countableProperties.filter(prop => metricFilter.values.indexOf(prop) > -1);
+  
+    const count = items => items.map(item => {
+      const sum = countableProperties.reduce((sum, prop) =>
+        sum + item.properties[prop], 0);
+
+      return {
+        ...item,
+        properties: {
+          ...item.properties,
+          weight: sum
+        }
+      }
+    });
+
+
+
     let preFilteredItems, postFilter;
 
     if (filters?.length > 0) {
@@ -38,9 +60,9 @@ const useSearch = () => {
       postFilter = filters.find(f => f.facet === facet)?.executable(availableFacets);
 
       // Step 1: apply pre-filters
-      preFilteredItems = all.filter(item => preFilters.every(fn => fn(item)));
+      preFilteredItems = count(all.filter(item => preFilters.every(fn => fn(item))));
     } else {
-      preFilteredItems = all;
+      preFilteredItems = count(all);
     }
 
     const facetDistribution = 

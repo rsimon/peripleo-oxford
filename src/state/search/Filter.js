@@ -40,14 +40,16 @@ export default class Filter {
     filter.facet === this.facet && filter.value === this.value;
 
   executable = facets => {
-    const { definition } = facets.find(f => f.name === this.facet);
+    const facet = facets.find(f => f.name === this.facet);
 
-    if (Array.isArray(definition))
-      return evalNestedFieldFilter(this.values, definition);
-    else if (definition instanceof Function)
-      return evalCustomFnFilter(this.values, definition);
+    if (facet.type?.startsWith('metric')) 
+      return facet.evalMetricFacetFilter(this.values)
+    if (Array.isArray(facet.definition))
+      return evalNestedFieldFilter(this.values, facet.definition);
+    else if (facet.definition instanceof Function)
+      return evalCustomFnFilter(this.values, facet.definition);
     else 
-      return evalSimpleFieldFilter(this.values, definition);
+      return evalSimpleFieldFilter(this.values, facet.definition);
   }
 
 }

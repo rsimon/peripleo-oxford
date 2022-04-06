@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Source, Layer } from 'react-map-gl';
 
-import { SIGNATURE_COLOR } from '../Colors';
+import { lighten, SIGNATURE_COLOR } from '../Colors';
 
 import { pointStyle, pointCategoryStyle } from './styles/Point';
 import { clusterPointStyle, clusterLabelStyle } from './styles/Clusters';
@@ -56,27 +56,51 @@ const LayersCategorized = props => {
     if (props.selectedMode === 'heatmap') {
       setLayers(getLayers(props.search.facetDistribution));       
     } else {
-      const { counts, items } = props.search.facetDistribution;
+      const { counts, items, minWeight, maxWeight } = props.search.facetDistribution;
+
+      console.log(props.search);
 
       // Just the facet value labels, in order of the legend
       const currentFacets = counts.map(c => c[0]);
 
+      // Current filter on this facet, if any
+      const currentFilter = props.search.filters.find(f => 
+        f.facet === props.search.facet);
+
       // Colorize the features according to their facet values
       const colorized = items.map(feature => {
         // Facet values assigned to this feature
-        const values = feature._facet?.values || [];
+        const values = feature._facet ? (
+          feature._facet.values || feature._facet.stats?.rel.map(t => t[0]) || []
+        ) : [];
         
-        // Color the feature by top facet
-        const topValue = values.find(value => currentFacets.indexOf(value) > -1);
+        // Color the feature by the top facet *that's currently active*!
+        // That means: we need to use different colors depending on whether
+        // there's currently a filter set on this facet
+        const topValue = values.find(value =>     
+          currentFilter ?
+            currentFilter.values.indexOf(value) > -1 :
+            currentFacets.indexOf(value) > -1);
 
-        const color = topValue ?
+        const weight = feature._facet?.stats ? (
+          currentFilter ?
+            feature._facet.stats.abs.reduce((sum, t) => {
+              return currentFilter.values.indexOf(t[0]) >= 0 ?
+                sum + t[1] : sum
+            }, 0) : feature._facet.weight
+        ) : feature.properties.weight;
+
+        let color = topValue ?
           SIGNATURE_COLOR[currentFacets.indexOf(topValue)] : '#a2a2a2';
+        
+        if (feature._facet.stats?.rel.length > 0)
+          color = lighten(color, 1 - feature._facet.stats.rel[0][1]);
 
         return {
           ...feature,
           properties: {
             ...feature.properties,
-            color
+            color, weight
           }
         }
       });

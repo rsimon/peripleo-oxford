@@ -6,48 +6,71 @@ const toSortedArray = counts => {
 
 export default class MetricFacet {
 
-  constructor(name, type, path) {
+  constructor(name, type, properties) {
     this.name = name;
     this.type = type;
-    this.path = path;
-
-    // Temporary hack
-    this.definition = path;
+    this.properties = new Set(properties);
   } 
 
   computeFacetDistribution = (items, postFilter) => {
     const counts = {};
 
-    const facetedItems = items.map(item => {
-      // Metrics object (via this.path)
-      const stats = this.path.reduce((obj, segment) =>
-        obj[segment], item);
+    let minWeight = Infinity;
+    let maxWeight = -Infinity;
 
-      // Get keys and sum values
-      for (const key in  stats) {
-        const count = stats[key];
-        counts[key] = counts[key] ? counts[key] + count : count;
-      }
+    const facetedItems = items.map(item => {
+      const stats = Object.entries(item.properties)
+        .filter(entry => this.properties.has(entry[0]));
+      
+      stats.sort((a, b) => b[1] - a[1]);
+
+      stats.forEach(([key, count]) =>
+        counts[key] = counts[key] ? counts[key] + count : count);
+
+      // Total count across all keys
+      const weight = stats.reduce((sum, t) => sum + t[1], 0);
+
+      if (weight > maxWeight)
+        maxWeight = weight;
+
+      if (weight < minWeight)
+        minWeight = weight;
+
+      // Stats as proportion relative to weight
+      const statsRelative = stats.map(entry => [ entry[0], entry[1] / weight ]);
 
       return {
         ...item,
         _facet: {
           name: this.name,
-          // For testing
-          values: toSortedArray(stats)
-            .filter(([ , count]) => count > 0)
-            .map(t => t[0])
-          // TODO weight = total no. of speakers
-          // TODO how to express ratios?
+          weight,
+          stats: {
+            abs: stats,
+            rel: statsRelative
+          }
         }
       };
     });
 
+    const filteredItems = facetedItems.filter(i => i._facet.weight > 0);
+    
     return {
       facet: this.name,
-      counts: toSortedArray(counts),    
-      items: postFilter ? facetedItems.filter(postFilter) : facetedItems
+      counts: toSortedArray(counts), 
+      minWeight, maxWeight,   
+      items: postFilter ? filteredItems.filter(postFilter) : filteredItems
     };
+  }
+
+  evalMetricFacetFilter = values => item => {    
+    const matches = values.map(prop => ([
+      prop,
+      item.properties[prop] || 0
+    ])).filter(t => t[1] > 0);
+
+    // Sum of all matched quantities
+    const sum = matches.reduce((sum, t) => sum + t[1], 0);
+    return matches.length > 0 ? { sum } : false;
   }
 
 }

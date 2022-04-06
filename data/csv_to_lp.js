@@ -15,6 +15,10 @@ const traces = sourceData.data.reduce((traces, record) => {
   const { decimalLatitude, decimalLongitude } = convert(record['geo-coordinates']);
 
   const toTrace = (when, label, audio, audioWhen) => {
+    const tc = parseInt(record[`${label} TC`]);
+    const gc = parseInt(record[`${label} GC`]);
+    const ac = parseInt(record[`${label} AC`]);
+
     const trace = {
       type: 'Feature',
       '@id': `${village}_${label}`,
@@ -23,11 +27,10 @@ const traces = sourceData.data.reduce((traces, record) => {
         village,
         region,
         location,
-        stats: {
-          'Turkish Cypriot': parseInt(record[`${label} TC`]),
-          'Greek Cypriot': parseInt(record[`${label} GC`]),
-          'Arabic Cypriot': parseInt(record[`${label} AC`])
-        }
+        total: tc + gc + ac,
+        'Turkish Cypriot': tc,
+        'Greek Cypriot': gc,
+        'Arabic Cypriot': ac
       },
       geometry: {
         type: 'Point',

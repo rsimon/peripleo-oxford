@@ -4,10 +4,11 @@
   "data": [
     { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
   ],
+  "result_metric": [ "speakers" ],
   "facets": [
-    { "name": "speakers", "type": "metric.sum", "path": [ "properties", "stats" ] },
-    { "name": "region", "path": [ "properties", "region" ] },
-    { "name": "location", "path": [ "properties", "location" ] },
-    { "name": "when", "path": [ "when", "label" ] }
+    { "name": "speakers", "type": "metric.sum", "properties": [ "Greek Cypriot","Turkish Cypriot", "Arabic Cypriot" ] },
+    { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
+    { "name": "location", "type": "category", "path": [ "properties", "location" ] },
+    { "name": "when",     "type": "category", "path": [ "when", "label" ] }
   ]
 }
