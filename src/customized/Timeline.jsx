@@ -1,6 +1,6 @@
 import React from 'react';
 
-const YEARS = [1901, 1946, 1960, 1973, 2000];
+const YEARS = ['1901', '1946', '1960', '1973', '2000s' ];
 
 const Timeline = props => {
 

@@ -2,6 +2,8 @@ import React, { createContext, useState } from 'react';
 
 import { Facet } from './Facets';
 
+import useSearch from './useSearch';
+
 const DEFAULT_FACETS = [
   // Facet value = value of the top-level 'dataset' field
   new Facet('dataset', 'dataset'),
@@ -22,7 +24,9 @@ export const FacetsContextProvider = props => {
 
   const [ facets, setFacets ] = useState(DEFAULT_FACETS);
 
-  const setFromDefinitions = definitions => {
+  const { setCategoryFacet } = useSearch();
+
+  const setFromDefinitions = (definitions, initFirst) => {
     setFacets(definitions.map(definition => {
       if ((typeof definition === 'string' || definition instanceof String)) {
         // Built-in facet
@@ -31,6 +35,9 @@ export const FacetsContextProvider = props => {
         return new Facet(definition.name, definition.path, definition.condition);
       }
     }));
+
+    if (initFirst && definitions.length > 0)
+      setCategoryFacet(definitions[0].name);
   }
 
   const value = { availableFacets: facets, setAvailableFacets: setFromDefinitions };

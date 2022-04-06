@@ -27,7 +27,7 @@ const App = () => {
     setLoadState({ stage: 'LOADING_DATA' });
 
     if (config.facets)
-      setAvailableFacets(config.facets);
+      setAvailableFacets(config.facets, true);
   }
 
   // Initial mount: load config

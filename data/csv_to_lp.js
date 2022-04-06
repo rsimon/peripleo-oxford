@@ -36,7 +36,10 @@ const traces = sourceData.data.reduce((traces, record) => {
           decimalLatitude 
         ]
       },
-      when
+      when: {
+        label,
+        year: when
+      }
     };
 
     if (audio && audioWhen === label)

@@ -119,6 +119,31 @@ const useSearch = () => {
     executeSearch(query, updatedFilters, facet);
   }
 
+  /**
+   * Sets a filter, replacing previous values (if any)
+   */
+  const setFilter = (filterFacet, arg) => {
+    const { query, filters, facet } = search;
+
+    // Allow null arg for removing a filter
+    if (!arg) {
+      const updatedFilters = filters.filter(f.facet !== filterFacet);
+      executeSearch(query, updatedFilters, facet);
+    } else {
+      const filterValues = Array.isArray(arg) ? arg : [ arg ]; 
+
+      const filter = new Filter(filterFacet, filterValues);
+
+      // Is there already a filter on this facet?
+      const existingFilter = filters.find(f => f.facet === filterFacet);
+      const updatedFilters = existingFilter ?
+        filters.map(f => f.facet === filterFacet ? filter : f) :
+        [...filters, filter ];
+
+      executeSearch(query, updatedFilters, facet);
+    }
+  }
+
   const clearFilter = filterFacet => {
     const { query, filters, facet } = search;
 
@@ -142,6 +167,7 @@ const useSearch = () => {
     changeSearchQuery,
     clearSearchQuery,
     fitMap,
+    setFilter,
     toggleFilter,
     clearFilter,
     setCategoryFacet,
