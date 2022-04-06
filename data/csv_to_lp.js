@@ -15,6 +15,7 @@ const traces = sourceData.data.reduce((traces, record) => {
   const toTrace = (when, label, audio, audioWhen) => {
     const trace = {
       type: 'Feature',
+      '@id': `${village}_${label}`,
       properties: {
         village,
         region,
