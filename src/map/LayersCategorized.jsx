@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Source, Layer } from 'react-map-gl';
+import  chroma from 'chroma-js';
 
-import { lighten, SIGNATURE_COLOR } from '../Colors';
+import { SIGNATURE_COLOR } from '../Colors';
 
 import { pointStyle, pointCategoryStyle } from './styles/Point';
 import { clusterPointStyle, clusterLabelStyle } from './styles/Clusters';
 import { colorHeatmapCoverage, colorHeatmapPoint } from './styles/Heatmap';
+
+const MIN_WEIGHT = 1;
+const MAX_WEIGHT = 94250;
 
 const toFeatureCollection = features => 
   ({ type: 'FeatureCollection', features: features || [] });
@@ -56,9 +60,7 @@ const LayersCategorized = props => {
     if (props.selectedMode === 'heatmap') {
       setLayers(getLayers(props.search.facetDistribution));       
     } else {
-      const { counts, items, minWeight, maxWeight } = props.search.facetDistribution;
-
-      console.log(props.search.maxWeight, props.search.minWeight);
+      const { counts, items } = props.search.facetDistribution;
 
       // Just the facet value labels, in order of the legend
       const currentFacets = counts.map(c => c[0]);
@@ -90,17 +92,20 @@ const LayersCategorized = props => {
             }, 0) : feature._facet.weight
         ) : feature.properties.weight;
 
-        let color = topValue ?
+        const color = topValue ?
           SIGNATURE_COLOR[currentFacets.indexOf(topValue)] : '#a2a2a2';
         
-        if (feature._facet.stats?.rel.length > 0)
-          color = lighten(color, 1 - feature._facet.stats.rel[0][1]);
+        const opacity = (feature._facet.stats?.rel.length > 0) ?
+          feature._facet.stats.rel[0][1] : 1;
 
         return {
           ...feature,
           properties: {
             ...feature.properties,
-            color, weight
+            color, 
+            'color-dark': chroma(color).darken().hex(),
+            opacity, 
+            weight
           }
         }
       });
@@ -115,7 +120,10 @@ const LayersCategorized = props => {
         <Source type="geojson" data={toFeatureCollection(features)}>
           <Layer 
             id="p6o-points"
-            {...pointCategoryStyle()} />
+            {...pointCategoryStyle({
+              minWeight: MIN_WEIGHT,
+              maxWeight: MAX_WEIGHT
+            })} />
         </Source>
       } 
 
