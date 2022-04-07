@@ -2,7 +2,7 @@ import bbox from '@turf/bbox';
   
 export default class Search {
 
-  constructor(query, filters, facet, fitMap, items, facetDistribution, minWeight, maxWeight) {
+  constructor(query, filters, facet, fitMap, items, facetDistribution) {
     this.query = query;
 
     this.filters = filters || [];
@@ -16,10 +16,6 @@ export default class Search {
     this.total = this.items.length;
 
     this.facetDistribution = facetDistribution;
-
-    this.minWeight = minWeight || 1;
-
-    this.maxWeight = maxWeight || 1;
   }
 
   clone = () =>

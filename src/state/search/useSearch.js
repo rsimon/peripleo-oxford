@@ -30,9 +30,6 @@ const useSearch = () => {
     // Hack!!
     let countableProperties = [ 'Turkish Cypriot', 'Greek Cypriot', 'Arabic Cypriot' ];
 
-    let minWeight = 1;
-    let maxWeight = 1;
-
     const metricFilter = filters.find(f => f.type === 'metric.sum');
     if (metricFilter)
       countableProperties.filter(prop => metricFilter.values.indexOf(prop) > -1);
@@ -40,12 +37,6 @@ const useSearch = () => {
     const count = items => items.map(item => {
       const weight = countableProperties.reduce((sum, prop) =>
         sum + item.properties[prop], 0);
-
-      if (weight > maxWeight)
-        maxWeight = weight;
-
-      if (weight < minWeight)
-        minWeight = weight;
 
       return {
         ...item,
@@ -80,7 +71,7 @@ const useSearch = () => {
     const items = facetDistribution ? 
       facetDistribution.items : preFilteredItems;
 
-    setSearchState(new Search(query, filters, facet, fitMap, items, facetDistribution, minWeight, maxWeight));
+    setSearchState(new Search(query, filters, facet, fitMap, items, facetDistribution));
   }
 
   /** Re-runs the search (e.g. if data has changed meanwhile) **/
