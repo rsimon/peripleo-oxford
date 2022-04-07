@@ -27,7 +27,7 @@ const traces = sourceData.data.reduce((traces, record) => {
         village,
         region,
         location,
-        total: tc + gc + ac,
+        Total: tc + gc + ac,
         'Turkish Cypriot': tc,
         'Greek Cypriot': gc,
         'Arabic Cypriot': ac

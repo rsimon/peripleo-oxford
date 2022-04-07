@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-import { FiMap } from 'react-icons/fi';
-import { AnimatePresence } from 'framer-motion';
+// import { FiMap } from 'react-icons/fi';
+// import { AnimatePresence } from 'framer-motion';
 import { 
   AiOutlineFullscreen, 
   AiOutlineFullscreenExit, 
@@ -51,7 +51,7 @@ const Zoom = props => {
         <AiOutlineMinus />
       </button>
 
-      <div className="p6o-map-modes">
+      {/* <div className="p6o-map-modes">
         <button
           className="p6o-controls-btn p6o-hud-button"
           tabIndex={33}
@@ -65,7 +65,7 @@ const Zoom = props => {
             <MapModesDropdown />
           }
         </AnimatePresence>
-      </div>
+      </div>*/}
     </div>
   )
 
