@@ -7,6 +7,12 @@
   "result_metric": [ "speakers" ],
   "facets": [
     { 
+      "name": "when",
+      "type": "category", 
+      "path": [ "when", "label" ], 
+      "excludeFromMenu": true,
+      "filterOnStart": "1901"
+    }, { 
       "name": "speakers", 
       "type": "metric.sum", 
       "properties": [ "Greek Cypriot", "Turkish Cypriot", "Arabic Cypriot" ],
@@ -14,10 +20,10 @@
         "Greek Cypriot": "#2165ff",
         "Turkish Cypriot": "#f52e38", 
         "Arabic Cypriot": "#008f18"
-      }
+      },
+      "activeOnStart": true
     },
     { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
-    { "name": "location", "type": "category", "path": [ "properties", "location" ] },
-    { "name": "when",     "type": "category", "path": [ "when", "label" ], "excludeFromMenu": true }
+    { "name": "location", "type": "category", "path": [ "properties", "location" ] }
   ]
 }

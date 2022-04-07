@@ -157,9 +157,12 @@ const useSearch = () => {
     // Allow null arg for removing a filter
     if (!arg) {
       const updatedFilters = filters.filter(f.facet !== filterFacet);
-      executeSearch(query, updatedFilters, facet);
+
+      if(!defer)
+        executeSearch(query, updatedFilters, facet);
     } else {
       const filterValues = Array.isArray(arg) ? arg : [ arg ]; 
+
 
       const filter = new Filter(filterFacet, filterValues);
 

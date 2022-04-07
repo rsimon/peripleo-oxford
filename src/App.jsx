@@ -7,6 +7,7 @@ import { FacetsContext } from './state/search/FacetsContext';
 import Loading from './loading/Loading';
 import Peripleo from './Peripleo';
 import Tutorial, { isFirstTimeVisitor } from './tutorial/Tutorial';
+import useSearch from './state/search/useSearch';
 
 /**
  * The 'App' class manages the basic load and data setup sequence, 
@@ -16,7 +17,9 @@ const App = () => {
 
   const { store } = useContext(StoreContext);
 
-  const { setAvailableFacets} = useContext(FacetsContext);
+  const { availableFacets, setAvailableFacets} = useContext(FacetsContext);
+
+  const { setFilter } = useSearch();
 
   const [ config, setConfig ] = useState();
 
@@ -27,7 +30,7 @@ const App = () => {
     setLoadState({ stage: 'LOADING_DATA' });
 
     if (config.facets)
-      setAvailableFacets(config.facets, true);
+      setAvailableFacets(config.facets);
   }
 
   // Initial mount: load config
@@ -37,7 +40,8 @@ const App = () => {
     fetch(customPath || 'peripleo.config.json')
       .then(response => response.json())
       .then(onConfigLoaded)
-      .catch(() => {
+      .catch(error => {
+        console.log(error);
         setLoadState({ stage: 'ERROR', cause: 'NO_CONFIG' });
         console.error('Error loading Peripleo config. Please add a valid `peripleo.config.json` to your application root.');
       });
@@ -48,7 +52,13 @@ const App = () => {
       setTimeout(() => 
         setLoadState({ ...loadState, stage: 'CLOSE' }), 2000);
     }
-  }, [loadState])
+  }, [loadState]);
+
+  useEffect(() => {
+    const filterOnStart = availableFacets.filter(d => d.filterOnStart);
+    filterOnStart.forEach(f =>
+      setFilter(f.name, f.filterOnStart, true));  
+  }, [ availableFacets ]);
 
   const onMapLoaded = () => {
     const { data } = config;

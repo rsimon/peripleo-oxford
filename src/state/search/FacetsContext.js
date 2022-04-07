@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 
 import { Facet } from './Facets';
 import MetricFacet from './MetricFacet';
@@ -25,9 +25,9 @@ export const FacetsContextProvider = props => {
 
   const [ facets, setFacets ] = useState(DEFAULT_FACETS);
 
-  const { setCategoryFacet } = useSearch();
+  const { setCategoryFacet, setFilter } = useSearch();
 
-  const setFromDefinitions = (definitions, initFirst) => {
+  const setFromDefinitions = definitions => {
     setFacets(definitions.map(definition => {
       if ((typeof definition === 'string' || definition instanceof String)) {
         // Built-in facet
@@ -35,12 +35,13 @@ export const FacetsContextProvider = props => {
       } else if (definition.type?.startsWith('metric')) {
         return new MetricFacet(definition.name, definition.type, definition.properties, definition.colors);
       } else if (definition.name && definition.path) {
-        return new Facet(definition.name, definition.path, definition.condition, definition.excludeFromMenu);
+        return new Facet(definition.name, definition.path, definition.condition, definition.excludeFromMenu, definition.filterOnStart);
       }
     }));
 
-    if (initFirst && definitions.length > 0)
-      setCategoryFacet(definitions[0].name);
+    const activeOnStart = definitions.find(d => d.activeOnStart);
+    if (activeOnStart)
+      setCategoryFacet(activeOnStart.name);
   }
 
   const value = { availableFacets: facets, setAvailableFacets: setFromDefinitions };
