@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Popup } from 'react-map-gl';
 
 import CardStack from './cards/CardStack';
-import ItemCard from './cards/ItemCard';
+// import ItemCard from './cards/ItemCard';
 import ItemListCard from './cards/ItemListCard';
+import ItemCard from '../../customized/selection/ProsodicConvergenceCard';
 
 const SelectionPreview = props => {
 

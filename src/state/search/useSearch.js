@@ -30,14 +30,19 @@ const useSearch = () => {
     // Hack!!
     let countableProperties = [ 'Turkish Cypriot', 'Greek Cypriot', 'Arabic Cypriot' ];
 
-    const metricFilter = filters.find(f => f.type === 'metric.sum');
-    if (metricFilter)
-      countableProperties.filter(prop => metricFilter.values.indexOf(prop) > -1);
-  
+    const metricFilterFacet = filters
+      .map(filter => availableFacets.find(facet => facet.name === filter.facet))
+      .find(f => f.type === 'metric.sum');
+
+    if (metricFilterFacet) {
+      const metricFilter = filters.find(f => f.facet === metricFilterFacet.name);
+      countableProperties = countableProperties.filter(prop => metricFilter.values.indexOf(prop) > -1);
+    }
+
     const count = items => items.map(item => {
       const weight = countableProperties.reduce((sum, prop) =>
         sum + item.properties[prop], 0);
-
+      
       return {
         ...item,
         properties: {
