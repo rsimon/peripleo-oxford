@@ -18,6 +18,6 @@
     },
     { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
     { "name": "location", "type": "category", "path": [ "properties", "location" ] },
-    { "name": "when",     "type": "category", "path": [ "when", "label" ] }
+    { "name": "when",     "type": "category", "path": [ "when", "label" ], "excludeFromMenu": true }
   ]
 }

@@ -2,10 +2,12 @@ import MetricFacet from "./MetricFacet";
 
 export class Facet {
 
-  constructor(name, definition, condition) {
+  constructor(name, definition, condition, excludeFromView) {
+    console.log('new facet', name, excludeFromView);
     this.name = name;
     this.definition = definition;
     this.condition = condition;
+    this.exclude = excludeFromView;
   } 
 
 }

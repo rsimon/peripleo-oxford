@@ -66,14 +66,8 @@ const Facets = props => {
 
   const customPalette = availableFacets.find(f => f.name === props.search.facet)?.colors;
 
-  console.log(availableFacets);
-  console.log('facet', props.search.facet);
-  console.log('palette', customPalette);
-
-  const getColor = (label, idx) => {
-    console.log('color for', label);
-    return customPalette ? customPalette[label] : SIGNATURE_COLOR[idx];
-  }
+  const getColor = (label, idx) =>
+    customPalette ? customPalette[label] : SIGNATURE_COLOR[idx];
   
   // Filter values on the current facet (if any)
   const currentFacetFilter = props.search.filters.find(f => f.facet === props.search.facet);

@@ -35,7 +35,7 @@ export const FacetsContextProvider = props => {
       } else if (definition.type?.startsWith('metric')) {
         return new MetricFacet(definition.name, definition.type, definition.properties, definition.colors);
       } else if (definition.name && definition.path) {
-        return new Facet(definition.name, definition.path, definition.condition);
+        return new Facet(definition.name, definition.path, definition.condition, definition.excludeFromMenu);
       }
     }));
 

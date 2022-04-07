@@ -200,7 +200,7 @@ const useSearch = () => {
     toggleFilter,
     clearFilter,
     setCategoryFacet,
-    availableFacets: availableFacets.map(f => f.name)
+    availableFacets: availableFacets.filter(f => !f.exclude).map(f => f.name)
   };
 
 }
