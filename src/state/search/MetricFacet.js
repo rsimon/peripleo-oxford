@@ -6,10 +6,12 @@ const toSortedArray = counts => {
 
 export default class MetricFacet {
 
-  constructor(name, type, properties) {
+  constructor(name, type, properties, colors) {
     this.name = name;
     this.type = type;
     this.properties = new Set(properties);
+
+    this.colors = colors;
   } 
 
   computeFacetDistribution = (items, postFilter) => {

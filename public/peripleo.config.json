@@ -6,7 +6,16 @@
   ],
   "result_metric": [ "speakers" ],
   "facets": [
-    { "name": "speakers", "type": "metric.sum", "properties": [ "Greek Cypriot","Turkish Cypriot", "Arabic Cypriot" ] },
+    { 
+      "name": "speakers", 
+      "type": "metric.sum", 
+      "properties": [ "Greek Cypriot", "Turkish Cypriot", "Arabic Cypriot" ],
+      "colors": {
+        "Greek Cypriot": "#2165ff",
+        "Turkish Cypriot": "#f52e38", 
+        "Arabic Cypriot": "#008f18"
+      }
+    },
     { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
     { "name": "location", "type": "category", "path": [ "properties", "location" ] },
     { "name": "when",     "type": "category", "path": [ "when", "label" ] }

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { HiOutlineChevronLeft, HiOutlineChevronRight, HiOutlinePlusCircle } from 'react-icons/hi';
 
 import { SIGNATURE_COLOR } from '../../Colors';
+import { FacetsContext } from '../../state/search/FacetsContext';
 
 const formatNumber = num => {
   if (num > 1000)
@@ -56,11 +57,24 @@ const equivalentFilters = (a, b) => {
 
 const Facets = props => {
 
+  const { availableFacets } = useContext(FacetsContext);
+
   const counts = props.search.facetDistribution?.counts || [];
 
   const displayed = counts.slice(0, 8);
   const remaining = counts.length - displayed.length;
 
+  const customPalette = availableFacets.find(f => f.name === props.search.facet)?.colors;
+
+  console.log(availableFacets);
+  console.log('facet', props.search.facet);
+  console.log('palette', customPalette);
+
+  const getColor = (label, idx) => {
+    console.log('color for', label);
+    return customPalette ? customPalette[label] : SIGNATURE_COLOR[idx];
+  }
+  
   // Filter values on the current facet (if any)
   const currentFacetFilter = props.search.filters.find(f => f.facet === props.search.facet);
 
@@ -127,7 +141,7 @@ const Facets = props => {
               <div className="p6o-facet-value-wrapper">
                 <span 
                   className="p6o-facet-value-count"
-                  style={{ backgroundColor: SIGNATURE_COLOR[idx] }}>{formatNumber(count)}</span>
+                  style={{ backgroundColor: getColor(label, idx) }}>{formatNumber(count)}</span>
 
                 <span className="p6o-facet-value-label">{label}</span>
               </div>

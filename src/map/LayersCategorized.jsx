@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Source, Layer } from 'react-map-gl';
 import  chroma from 'chroma-js';
 
@@ -7,6 +7,7 @@ import { SIGNATURE_COLOR } from '../Colors';
 import { pointStyle, pointCategoryStyle } from './styles/Point';
 import { clusterPointStyle, clusterLabelStyle } from './styles/Clusters';
 import { colorHeatmapCoverage, colorHeatmapPoint } from './styles/Heatmap';
+import { FacetsContext } from '../state/search/FacetsContext';
 
 const MIN_WEIGHT = 1;
 const MAX_WEIGHT = 94250;
@@ -56,7 +57,12 @@ const LayersCategorized = props => {
 
   const [ layers, setLayers ] = useState();
 
+  const { availableFacets } = useContext(FacetsContext);
+
   useEffect(() => {
+
+    const preConfiguredColors = availableFacets.find(f => f.name === props.search.facet)?.colors;
+
     if (props.selectedMode === 'heatmap') {
       setLayers(getLayers(props.search.facetDistribution));       
     } else {
@@ -93,8 +99,9 @@ const LayersCategorized = props => {
         ) : feature.properties.weight;
 
         const color = topValue ?
-          SIGNATURE_COLOR[currentFacets.indexOf(topValue)] : '#a2a2a2';
-        
+          (preConfiguredColors ?
+            preConfiguredColors[topValue] : SIGNATURE_COLOR[currentFacets.indexOf(topValue)]) : '#a2a2a2';
+
         const opacity = (feature._facet.stats?.rel.length > 0) ?
           feature._facet.stats.rel[0][1] : 1;
 
