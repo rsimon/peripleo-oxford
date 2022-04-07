@@ -58,7 +58,7 @@ const LayersCategorized = props => {
     } else {
       const { counts, items, minWeight, maxWeight } = props.search.facetDistribution;
 
-      console.log(props.search);
+      console.log(props.search.maxWeight, props.search.minWeight);
 
       // Just the facet value labels, in order of the legend
       const currentFacets = counts.map(c => c[0]);
