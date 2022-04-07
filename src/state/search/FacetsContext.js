@@ -3,8 +3,6 @@ import React, { createContext, useEffect, useState } from 'react';
 import { Facet } from './Facets';
 import MetricFacet from './MetricFacet';
 
-import useSearch from './useSearch';
-
 const DEFAULT_FACETS = [
   // Facet value = value of the top-level 'dataset' field
   new Facet('dataset', 'dataset'),
@@ -25,8 +23,6 @@ export const FacetsContextProvider = props => {
 
   const [ facets, setFacets ] = useState(DEFAULT_FACETS);
 
-  const { setCategoryFacet, setFilter } = useSearch();
-
   const setFromDefinitions = definitions => {
     setFacets(definitions.map(definition => {
       if ((typeof definition === 'string' || definition instanceof String)) {
@@ -38,10 +34,6 @@ export const FacetsContextProvider = props => {
         return new Facet(definition.name, definition.path, definition.condition, definition.excludeFromMenu, definition.filterOnStart);
       }
     }));
-
-    const activeOnStart = definitions.find(d => d.activeOnStart);
-    if (activeOnStart)
-      setCategoryFacet(activeOnStart.name);
   }
 
   const value = { availableFacets: facets, setAvailableFacets: setFromDefinitions };

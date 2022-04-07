@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
+import { useRecoilState } from 'recoil';
 
 import { StoreContext } from './store';
 import { FacetsContext } from './state/search/FacetsContext';
@@ -7,7 +8,9 @@ import { FacetsContext } from './state/search/FacetsContext';
 import Loading from './loading/Loading';
 import Peripleo from './Peripleo';
 import Tutorial, { isFirstTimeVisitor } from './tutorial/Tutorial';
+import Search from './state/search/Search';
 import useSearch from './state/search/useSearch';
+import { searchState } from './state';
 
 /**
  * The 'App' class manages the basic load and data setup sequence, 
@@ -19,7 +22,9 @@ const App = () => {
 
   const { availableFacets, setAvailableFacets} = useContext(FacetsContext);
 
-  const { setFilter } = useSearch();
+  const [ search, setSearchState ] = useRecoilState(searchState);
+
+  const { setCategoryFacet, setFilter } = useSearch();
 
   const [ config, setConfig ] = useState();
 
@@ -28,6 +33,10 @@ const App = () => {
   const onConfigLoaded = config => {
     setConfig(config);
     setLoadState({ stage: 'LOADING_DATA' });
+
+    const initialFacet = config.facets?.find(d => d.activeOnStart);
+    if (initialFacet)
+      setSearchState(new Search(search.query, search.filters, initialFacet.name));
 
     if (config.facets)
       setAvailableFacets(config.facets);
@@ -57,7 +66,7 @@ const App = () => {
   useEffect(() => {
     const filterOnStart = availableFacets.filter(d => d.filterOnStart);
     filterOnStart.forEach(f =>
-      setFilter(f.name, f.filterOnStart, true));  
+      setFilter(f.name, f.filterOnStart, true));
   }, [ availableFacets ]);
 
   const onMapLoaded = () => {
