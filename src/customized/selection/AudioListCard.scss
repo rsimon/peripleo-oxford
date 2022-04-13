@@ -1,7 +1,24 @@
 .p6o-selection-card.p6o-selection-itemlistcard.p6o-audiolist {
 
   .p6o-audio-container {
-    
+    display:flex;
+    align-items:center;
+
+    .p6o-audio-controls {
+      flex:0;
+
+      button svg {
+        color:#333;
+        font-size:45px;
+        padding-right:10px;
+      }
+
+    }
+
+    .p6o-audio-waveform {
+      flex:1;
+    }
+
   }
 
 }
