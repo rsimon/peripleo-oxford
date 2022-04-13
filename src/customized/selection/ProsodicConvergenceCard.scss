@@ -1,0 +1,41 @@
+.p6o-selection-card.p6o-prosodic-convergence-selection-card.p6o-selection-itemcard {
+
+  header {
+    justify-content:space-between;
+    align-items:flex-start;
+  }
+
+  h1, h2 {
+    color:#fff;
+  }
+
+  h1 {
+    font-size:18px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .p6o-selection-audio {
+
+    svg {
+      font-size:22px;
+      vertical-align:middle;
+      padding:0 3px 3px 0;
+    }
+
+    button {
+      color:#626262;
+      font-size:15px;
+    }
+
+  }
+
+  .p6o-selection-audio.disabled {
+    color:#9f9f9f;
+    font-size:15px;
+  }
+
+}

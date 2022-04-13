@@ -1072,7 +1072,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -1588,7 +1589,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -1996,7 +1998,8 @@
         "Total": 2626,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 2626,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",

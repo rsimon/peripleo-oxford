@@ -45,8 +45,10 @@ const traces = sourceData.data.reduce((traces, record) => {
       }
     };
 
-    if (audio && audioWhen === label)
+    if (audio && audioWhen === label) {
       trace.audio = [ audio ];
+      trace.properties.audio = 1;
+    }
 
     return trace;
   };
