@@ -7,7 +7,9 @@ const ProsodicConvergenceCard = props => {
 
   const { node, feature } = props;
 
-  const { audio } = node;
+  console.log(node);
+
+  const { audio, properties } = node;
 
   const color = feature.properties.color || SIGNATURE_COLOR[3]; 
 
@@ -15,6 +17,14 @@ const ProsodicConvergenceCard = props => {
     referrer: props,
     nodeList: audio
   });
+
+  const rows = [
+    [ 'Arabic Cypriot', properties['Arabic Cypriot'] ],
+    [ 'Greek Cypriot', properties['Greek Cypriot'] ],
+    [ 'Turkish Cypriot', properties['Turkish Cypriot'] ]
+  ];
+
+  rows.sort((a, b) => b[1] - a[1]);
 
   return (
     <div 
@@ -34,8 +44,8 @@ const ProsodicConvergenceCard = props => {
         }
 
         <div>
-          <h1>{node.title}</h1>
-          <h2>{node.properties.region}</h2>
+          <h1>{node.title} ({node.when.label})</h1>
+          <h2>{properties.region}</h2>
         </div>
 
         <button
@@ -47,7 +57,15 @@ const ProsodicConvergenceCard = props => {
 
       <div className="p6o-selection-content">
         <main>
-
+          <h3>{properties.Total} Speakers</h3>
+          <table>
+            {rows.map(([label, count]) => 
+              <tr key={label}>
+                <td>{label}</td>
+                <td>{count}</td>
+              </tr>
+            )}
+          </table>
         </main>
       </div>
 
