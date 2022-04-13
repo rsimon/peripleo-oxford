@@ -1,10 +1,37 @@
+@import './Timeline';
+
 .p6o-hud-prosodic-convergence {
   color:#3e3e3e;
 
   .p6o-hud-permanent {
     position:absolute;
     top:20px;
-    left:20px;
+    left:40px;
+
+    .p6o-hud-top {
+      position:relative;
+      background-color:#fff;
+      @include rounded-corners(3px);
+      @include box-shadow(0, 0, 4px, 0.25);
+
+      h1 {
+        font-size:18px;
+        padding:10px 20px 30px 20px;
+
+        svg {
+          font-size:24px;
+          vertical-align:text-top;
+          padding-left:10px;      
+        }
+        
+      }
+
+    }
+
+    .p6o-facets-container { 
+      padding:10px 0 0 0;
+    }
+
   }
   
 }

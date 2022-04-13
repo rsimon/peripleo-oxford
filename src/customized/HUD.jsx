@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { IoInformationCircleOutline } from 'react-icons/io5';
 
 import Timeline from './Timeline';
 import Facets from '../hud/search/Facets';
@@ -31,12 +32,17 @@ const CustomizedHUD = props => {
   const onClearFilter = () => 
     clearFilter(search.facet);
 
+  const currentTimeFilter = search.filters.find(f => f.facet === 'when')?.values[0];
+
   return (
     <div className="p6o-hud-prosodic-convergence">
       <div className="p6o-hud-permanent">
-        <h1>Atlas of Prosodic Convergence</h1>
-        <Timeline 
-          onSelect={onChangeWhen} />
+        <div className="p6o-hud-top">
+          <h1>Atlas of Prosodic Convergence <IoInformationCircleOutline /></h1>
+          <Timeline 
+            active={currentTimeFilter}
+            onSelect={onChangeWhen} /> 
+        </div>
 
         {search.facet &&
           <Facets

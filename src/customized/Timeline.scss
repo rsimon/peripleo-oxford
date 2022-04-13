@@ -1,0 +1,52 @@
+.p6o-hud-timeline {
+  background-color:#fff;
+  display:inline-block;
+  position:absolute;
+  bottom:-18px;
+  left:-10px;
+  white-space:nowrap;
+  @include rounded-corners(3px);
+  @include box-shadow(0, 0, 4px, 0.25);
+
+  ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+
+  li {
+    display:inline-block;
+    border-right:1px solid #e9e8e8;  
+
+    button {
+      padding:8px 30px;
+      font-size:16px;
+      font-weight:bold;
+    }
+
+  }
+
+  li:hover:not(.active) {
+    background-color:#ededed;
+  }
+
+  li.active {
+    background-color:#000;
+
+    button {
+      color:#fff;
+    }
+
+  }
+
+  li:first-child {
+    border-right:none;
+    @include rounded-corners-left(3px);
+  }
+
+  li:last-child {
+    border-right:none;
+    @include rounded-corners-right(3px);
+  }
+
+}
