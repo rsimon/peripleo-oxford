@@ -18,6 +18,35 @@
     font-weight: normal;
   }
 
+  h3 {
+    margin:0;
+    padding:0;
+  }
+
+  main {
+    padding:10px;
+  }
+
+  table {
+    width:100%;
+
+    td {
+      background-color: #e9e9e9;
+      padding: 6px 10px;
+      font-size: 13px;
+    }
+
+    td:first-child {
+      @include rounded-corners-left(2px);
+    }
+
+    td:last-child {
+      text-align:right;
+      @include rounded-corners-right(2px);
+    }
+
+  }
+
   .p6o-selection-audio {
 
     svg {

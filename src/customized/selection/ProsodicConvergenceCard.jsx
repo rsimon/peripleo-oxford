@@ -57,12 +57,11 @@ const ProsodicConvergenceCard = props => {
 
       <div className="p6o-selection-content">
         <main>
-          <h3>{properties.Total} Speakers</h3>
           <table>
             {rows.map(([label, count]) => 
               <tr key={label}>
                 <td>{label}</td>
-                <td>{count}</td>
+                <td>{(count || 0).toLocaleString('en-US')}</td>
               </tr>
             )}
           </table>
