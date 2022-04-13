@@ -5,13 +5,16 @@ import { SIGNATURE_COLOR } from '../../Colors';
 
 const ProsodicConvergenceCard = props => {
 
-  console.log(props);
-
   const { node, feature } = props;
 
   const { audio } = node;
 
   const color = feature.properties.color || SIGNATURE_COLOR[3]; 
+
+  const goTo = () => props.onGoTo({
+    referrer: props,
+    nodeList: audio
+  });
 
   return (
     <div 
@@ -52,7 +55,7 @@ const ProsodicConvergenceCard = props => {
         {audio ? 
           <div
             className="p6o-selection-audio">
-            <button>
+            <button onClick={goTo}>
               <IoVolumeHighOutline /> <span>{audio.length} Audio recording{audio.length > 1 && 's'}</span>
             </button>
           </div> :

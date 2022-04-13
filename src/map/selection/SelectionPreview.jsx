@@ -3,8 +3,9 @@ import { Popup } from 'react-map-gl';
 
 import CardStack from './cards/CardStack';
 // import ItemCard from './cards/ItemCard';
-import ItemListCard from './cards/ItemListCard';
+// import ItemListCard from './cards/ItemListCard';
 import ItemCard from '../../customized/selection/ProsodicConvergenceCard';
+import ItemListCard from '../../customized/selection/AudioListCard';
 
 const SelectionPreview = props => {
 
