@@ -1,0 +1,29 @@
+{
+  "api_key": "cqqmcLw28krG9Fl7V3kg",
+  "initial_bounds": [31.3, 34.3, 35.2, 36.0],
+  "data": [
+    { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
+  ],
+  "result_metric": [ "speakers" ],
+  "facets": [
+    { 
+      "name": "when",
+      "type": "category", 
+      "path": [ "when", "label" ], 
+      "excludeFromMenu": true,
+      "filterOnStart": "1901"
+    }, { 
+      "name": "speakers", 
+      "type": "metric.sum", 
+      "properties": [ "Greek Cypriot", "Turkish Cypriot", "Arabic Cypriot" ],
+      "colors": {
+        "Greek Cypriot": "#2165ff",
+        "Turkish Cypriot": "#f52e38", 
+        "Arabic Cypriot": "#008f18"
+      },
+      "activeOnStart": true
+    },
+    { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
+    { "name": "location", "type": "category", "path": [ "properties", "location" ] }
+  ]
+}
