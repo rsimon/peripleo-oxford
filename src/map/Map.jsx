@@ -10,7 +10,8 @@ import LayersCategorized from './LayersCategorized';
 import LayersUncategorized from './LayersUncategorized';
 
 import Controls from './controls/Controls';
-import HoverBubble from './HoverBubble';
+// import HoverBubble from './HoverBubble';
+import HoverBubble from '../customized/HoverBubble';
 import SelectionPreview from './selection/SelectionPreview';
 
 import { geojsonLineStyle } from './styles/BackgroundLayers';
@@ -151,7 +152,7 @@ const Map = React.forwardRef((props, ref) => {
 
       {props.children}
 
-      {hover && <HoverBubble {...hover} />}
+      {hover && <HoverBubble config={config} {...hover} />}
     </div>
   )
 

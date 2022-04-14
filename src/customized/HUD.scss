@@ -37,3 +37,31 @@
   }
   
 }
+
+.p6o-prosodic-convergence-map-hover {
+  white-space:nowrap;
+
+  * {
+    vertical-align:text-bottom;
+    white-space:nowrap;
+  }
+
+  ul {
+    margin:0;
+    padding:0 0 0 8px,;
+    list-style-type:none;
+    display:inline-block;
+  }
+
+  li {
+    display:inline-block;
+    margin-right:3px;
+    color:#fff;
+    padding:1px 8px;
+    font-weight:bold;
+    @include rounded-corners(3px);
+  }
+
+
+
+}
