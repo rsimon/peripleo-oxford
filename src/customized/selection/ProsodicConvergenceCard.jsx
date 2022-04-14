@@ -7,8 +7,6 @@ const ProsodicConvergenceCard = props => {
 
   const { node, feature } = props;
 
-  console.log(node);
-
   const { audio, properties } = node;
 
   const color = feature.properties.color || SIGNATURE_COLOR[3]; 
