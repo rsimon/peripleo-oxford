@@ -42,7 +42,7 @@ const Hover = props => {
       {counts &&
         <ul>
           {counts.map(([key, val]) => 
-            <li style={{ backgroundColor: colors[key] }} key={key}>{val.toLocaleString('en-US')}</li>
+            <li style={{ backgroundColor: colors[key] }} key={key}>{(val || 0).toLocaleString('en-US')}</li>
           )}
         </ul>
       } 
