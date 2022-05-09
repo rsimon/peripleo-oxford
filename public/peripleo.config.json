@@ -4,6 +4,12 @@
   "data": [
     { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
   ],
+  "layers": [{ 
+    "name": "Administrative Boundaries", 
+    "type": "geojson",
+    "src": "layers/cy_admin_bounds_25m.geojson", 
+    "color": "#5555ff" 
+  }],
   "result_metric": [ "speakers" ],
   "facets": [
     { 
