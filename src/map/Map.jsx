@@ -6,19 +6,19 @@ import useSearch from '../state/search/useSearch';
 import { StoreContext } from '../store';
 import { mapViewState, mapModeState } from '../state';
 
+import { parseLayerConfig } from './BaseLayers';
 import LayersCategorized from './LayersCategorized';
 import LayersUncategorized from './LayersUncategorized';
 
 import Controls from './controls/Controls';
-// import HoverBubble from './HoverBubble';
 import HoverBubble from '../customized/HoverBubble';
 import SelectionPreview from './selection/SelectionPreview';
-
-import { geojsonLineStyle } from './styles/BackgroundLayers';
 
 const Map = React.forwardRef((props, ref) => {
 
   const { config } = props;
+
+  console.log(config);
 
   const mapRef = useRef();
 
@@ -110,18 +110,13 @@ const Map = React.forwardRef((props, ref) => {
         initialViewState={viewstate.latitude && viewstate.longitude && viewstate.zoom ? viewstate : {
           bounds: config.initial_bounds
         }}
-        mapStyle={style}
+        
         onLoad={props.onLoad}
         onMove={onMapChange}
         onClick={onClick}
         onMouseMove={onMouseMove}>
 
-        {props.config.layers && props.config.layers.map(layer =>
-          <Source key={layer.name} type="geojson" data={layer.src}>
-            <Layer
-              {...geojsonLineStyle(layer.color)} />
-          </Source>
-        )}
+        {config.layers && config.layers.map(layer => parseLayerConfig(layer))}
 
         {search.facetDistribution ?
           <LayersCategorized 

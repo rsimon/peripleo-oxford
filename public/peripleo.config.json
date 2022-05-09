@@ -4,7 +4,16 @@
   "data": [
     { "name": "Prosodic Convergence", "format": "LINKED_PLACES", "src": "sample_data.lp.json" }
   ],
-  "layers": [{ 
+  "layers": [{
+    "name":"Kitchener's map of Cyprus",
+    "type":"raster",
+    "scheme": "tms",
+    "tiles":[
+      "https://kitchener.hua.gr/tms/kitchener_review_jpg_512/{z}/{x}/{y}.jpg"
+    ],
+    "tileSize":512,
+    "attribution":"Kitchener's map of Cyprus"
+  },{ 
     "name": "Administrative Boundaries", 
     "type": "geojson",
     "src": "layers/cy_admin_bounds_25m.geojson", 
