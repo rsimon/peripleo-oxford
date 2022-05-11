@@ -1,3 +1,4 @@
+import { AnimatePresence } from 'framer-motion';
 import React, { useRef, useState } from 'react';
 // import { FiMap } from 'react-icons/fi';
 // import { AnimatePresence } from 'framer-motion';
@@ -7,17 +8,23 @@ import {
   AiOutlinePlus, 
   AiOutlineMinus 
 } from 'react-icons/ai';
+import { BsLayers } from 'react-icons/bs';
 
 import useClickOutside from './useClickoutside';
-import MapModesDropdown from './MapModesDropdown';
+// import MapModesDropdown from './MapModesDropdown';
+import MapLayersDropdown from './MapLayersDropdown';
 
-const Zoom = props => {
+const Controls = props => {
 
-  const [ isModesMenuVisible, setIsModesMenuVisible ] = useState(false);
+  // const [ isModesMenuVisible, setIsModesMenuVisible ] = useState(false);
+  const [ isLayersMenuVisible, setIsLayersMenuVisible ] = useState(false);
 
   const el = useRef();
 
-  useClickOutside(el, () => setIsModesMenuVisible(false));
+  useClickOutside(el, () => {
+    console.log('clicked outside');
+    setIsLayersMenuVisible(false);
+  });
 
   return (
     <div
@@ -51,6 +58,23 @@ const Zoom = props => {
         <AiOutlineMinus />
       </button>
 
+      {props.config.layers?.length > 0 && 
+        <div className="p6o-map-layers">
+
+          <button
+            className="p6o-controls-btn p6o-hud-button"
+            onClick={() => setIsLayersMenuVisible(!isLayersMenuVisible)}>
+            <BsLayers />
+          </button>
+
+          <AnimatePresence>
+            {isLayersMenuVisible && 
+              <MapLayersDropdown layers={props.config.layers} />
+            }
+          </AnimatePresence>
+        </div>
+      }
+
       {/* <div className="p6o-map-modes">
         <button
           className="p6o-controls-btn p6o-hud-button"
@@ -71,4 +95,4 @@ const Zoom = props => {
 
 }
 
-export default Zoom;
+export default Controls;

@@ -18,8 +18,6 @@ const Map = React.forwardRef((props, ref) => {
 
   const { config } = props;
 
-  console.log(config);
-
   const mapRef = useRef();
 
   const { store } = useContext(StoreContext);
@@ -133,12 +131,13 @@ const Map = React.forwardRef((props, ref) => {
         {selection && 
           <SelectionPreview 
             {...selection}
-            config={props.config} 
+            config={config} 
             onClose={onClosePopup} />
         }
       </ReactMapGL>
 
       <Controls 
+        config={config}
         fullscreenButton={props.isIFrame}
         isFullscreen={props.isFullscreen}
         onZoomIn={onZoom(1)}

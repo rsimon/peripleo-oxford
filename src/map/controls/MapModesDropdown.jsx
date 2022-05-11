@@ -24,7 +24,7 @@ const MapModesDropdown = () => {
   return (
     <motion.div 
       key="map-modes"
-      className="p6o-map-modes-dropdown"
+      className="p6o-controls-dropdown"
       initial={{ maxWidth: 0 }}
       animate={{ maxWidth: 300 }}
       exit={{ maxWidth: 0 }}>

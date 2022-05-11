@@ -32,7 +32,6 @@ const parseGeoJSONConfig = config => (
 )
 
 export const parseLayerConfig = config => {
-  console.log(config);
   if (config.type === 'raster') {
     return parseRasterConfig(config);
   } else if (config.type === 'geojson') {
