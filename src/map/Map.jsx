@@ -1,5 +1,5 @@
 import React, { useCallback, useContext, useEffect, useRef, useState } from 'react';
-import ReactMapGL, { Source, Layer } from 'react-map-gl';
+import ReactMapGL from 'react-map-gl';
 import { useRecoilState, useRecoilValue } from 'recoil';
 
 import useSearch from '../state/search/useSearch';
@@ -27,6 +27,8 @@ const Map = React.forwardRef((props, ref) => {
   const [ viewstate, setViewstate ] = useRecoilState(mapViewState);
 
   const modeState = useRecoilValue(mapModeState);
+
+  const [ layerState, setLayerState ] = useState([]);
 
   const [ hover, setHover ] = useState();
 
@@ -108,23 +110,25 @@ const Map = React.forwardRef((props, ref) => {
         initialViewState={viewstate.latitude && viewstate.longitude && viewstate.zoom ? viewstate : {
           bounds: config.initial_bounds
         }}
-        
+        mapStyle={style}
         onLoad={props.onLoad}
         onMove={onMapChange}
         onClick={onClick}
         onMouseMove={onMouseMove}>
 
-        {config.layers && config.layers.map(layer => parseLayerConfig(layer))}
+        {layerState.length > 0 && layerState.map((layer, idx) => parseLayerConfig(layer, idx))}
 
         {search.facetDistribution ?
           <LayersCategorized 
             selectedMode={modeState}
+            index={layerState.length + 1}
             search={search} /> 
           
           :
           
           <LayersUncategorized 
             selectedMode={modeState}
+            index={layerState.length + 1}
             search={search} />
         }
 
@@ -142,7 +146,9 @@ const Map = React.forwardRef((props, ref) => {
         isFullscreen={props.isFullscreen}
         onZoomIn={onZoom(1)}
         onZoomOut={onZoom(-1)} 
-        onToggleFullscreen={props.onToggleFullscreen} />
+        onToggleFullscreen={props.onToggleFullscreen}
+        selectedLayers={layerState}
+        onChangeLayers={setLayerState} />
 
       {props.children}
 

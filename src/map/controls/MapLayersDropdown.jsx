@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { RiCheckboxBlankCircleLine, RiCheckboxCircleFill } from 'react-icons/ri';
 import { motion } from 'framer-motion';
 
@@ -16,7 +16,24 @@ const Layer = props => {
 
 const MapLayersDropdown = props => {
 
-  console.log(props);
+  const [ selectedLayers, setSelectedLayers ] = useState(props.selectedLayers);
+
+  const onToggleLayer = layer => {
+    const updated = [ ...selectedLayers ];
+    const index = updated.indexOf(layer);
+
+    if (index > -1) {
+      updated.splice(index, 1);
+    } else {
+      updated.push(layer);
+    }
+
+    setSelectedLayers(updated);
+
+    // Retain order of the original config file
+    const ordered = props.layers.filter(l => updated.includes(l));
+    props.onChangeLayers(ordered);
+  }
 
   return (
     <motion.div 
@@ -30,9 +47,9 @@ const MapLayersDropdown = props => {
         {props.layers.map(layer =>
           <Layer
             key={layer.name}
-            selected={false}
+            selected={selectedLayers.includes(layer)}
             label={layer.name} 
-            onSelect={() => console.log('select')} />
+            onSelect={() => onToggleLayer(layer)} />
         )}
       </ul>
     </motion.div>

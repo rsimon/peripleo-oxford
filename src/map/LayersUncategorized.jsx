@@ -15,7 +15,7 @@ const LayersUncategorized = props => {
       {props.selectedMode === 'points' &&
         <Source type="geojson" data={toFeatureCollection(props.search.items)}>
           <Layer 
-            id="p6o-points"
+            id={'p6o-points-' + props.index}
             {...pointStyle({ fill: 'red', radius: 5 })} />
         </Source>
       } 
@@ -33,7 +33,7 @@ const LayersUncategorized = props => {
             {...clusterLabelStyle()} />
 
           <Layer 
-            id="p6o-points"
+            id={'p6o-points-' + props.index}
             filter={['!', ['has', 'point_count']]}
             {...pointStyle({ fill: 'red', radius: 5 })} />
         </Source>
@@ -42,11 +42,11 @@ const LayersUncategorized = props => {
       {props.selectedMode === 'heatmap' &&
         <Source type="geojson" data={toFeatureCollection(props.search.items)}>
           <Layer
-            id="p6o-heatmap"
+            id={'p6o-heatmap-' + props.index}
             {...heatmapCoverage()} />
 
           <Layer
-            id="p6o-points"
+            id={'p6o-heatmap-' + props.index}
             {...heatmapPoint()} /> 
         </Source>
       }

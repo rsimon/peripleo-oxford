@@ -3,9 +3,9 @@ import { Source, Layer } from 'react-map-gl';
 
 import { geojsonLineStyle } from './styles/BackgroundLayers';
 
-const parseRasterConfig = config => (
+const parseRasterConfig = (config, idx) => (
   <Source
-    key={config.name}
+    key={config.name + idx}
     type="raster"
     scheme={config.scheme}
     tiles={config.tiles}
@@ -19,9 +19,9 @@ const parseRasterConfig = config => (
   </Source>
 )
 
-const parseGeoJSONConfig = config => (
+const parseGeoJSONConfig = (config, idx) => (
   <Source 
-    key={config.name}
+    key={config.name + idx}
     type="geojson" 
     data={config.src}>
 
@@ -31,10 +31,10 @@ const parseGeoJSONConfig = config => (
   </Source>
 )
 
-export const parseLayerConfig = config => {
+export const parseLayerConfig = (config, idx) => {
   if (config.type === 'raster') {
-    return parseRasterConfig(config);
+    return parseRasterConfig(config, idx);
   } else if (config.type === 'geojson') {
-    return parseGeoJSONConfig(config);
+    return parseGeoJSONConfig(config, idx);
   }
 }

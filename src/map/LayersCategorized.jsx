@@ -124,7 +124,10 @@ const LayersCategorized = props => {
   return (
     <>
       {props.selectedMode === 'points' &&
-        <Source type="geojson" data={toFeatureCollection(features)}>
+        <Source 
+          type="geojson" 
+          key={'point-' + props.index}
+          data={toFeatureCollection(features)}>
           <Layer 
             id="p6o-points"
             {...pointCategoryStyle({
@@ -137,6 +140,7 @@ const LayersCategorized = props => {
       {props.selectedMode === 'clusters' && 
         <Source 
           type="geojson" 
+          key={'point-' + props.index}
           cluster={true}
           data={toFeatureCollection(features)}>
 
@@ -155,7 +159,7 @@ const LayersCategorized = props => {
 
       {props.selectedMode === 'heatmap' &&
         layers?.map(([layer, features, color]) => 
-          <Source key={layer} type="geojson" data={toFeatureCollection(features)}>
+          <Source key={layer + props.index} type="geojson" data={toFeatureCollection(features)}>
             <Layer
               id={`p6o-heatmap-${layer}`}
               {...colorHeatmapCoverage(color)} />

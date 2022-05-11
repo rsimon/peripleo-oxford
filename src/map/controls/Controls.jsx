@@ -21,10 +21,8 @@ const Controls = props => {
 
   const el = useRef();
 
-  useClickOutside(el, () => {
-    console.log('clicked outside');
-    setIsLayersMenuVisible(false);
-  });
+  useClickOutside(el, () =>
+    setIsLayersMenuVisible(false));
 
   return (
     <div
@@ -69,7 +67,10 @@ const Controls = props => {
 
           <AnimatePresence>
             {isLayersMenuVisible && 
-              <MapLayersDropdown layers={props.config.layers} />
+              <MapLayersDropdown 
+                layers={props.config.layers} 
+                selectedLayers={props.selectedLayers}
+                onChangeLayers={props.onChangeLayers} />
             }
           </AnimatePresence>
         </div>
