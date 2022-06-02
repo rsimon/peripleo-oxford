@@ -1,7 +1,6 @@
+import React, { useEffect, useRef, useState } from 'react';
+import { FiMap } from 'react-icons/fi';
 import { AnimatePresence } from 'framer-motion';
-import React, { useRef, useState } from 'react';
-// import { FiMap } from 'react-icons/fi';
-// import { AnimatePresence } from 'framer-motion';
 import { 
   AiOutlineFullscreen, 
   AiOutlineFullscreenExit, 
@@ -11,12 +10,12 @@ import {
 import { BsLayers } from 'react-icons/bs';
 
 import useClickOutside from './useClickoutside';
-// import MapModesDropdown from './MapModesDropdown';
+import MapModesDropdown from './MapModesDropdown';
 import MapLayersDropdown from './MapLayersDropdown';
 
 const Controls = props => {
 
-  // const [ isModesMenuVisible, setIsModesMenuVisible ] = useState(false);
+  const [ isModesMenuVisible, setIsModesMenuVisible ] = useState(false);
   const [ isLayersMenuVisible, setIsLayersMenuVisible ] = useState(false);
 
   const el = useRef();
@@ -76,7 +75,7 @@ const Controls = props => {
         </div>
       }
 
-      {/* <div className="p6o-map-modes">
+      <div className="p6o-map-modes">
         <button
           className="p6o-controls-btn p6o-hud-button"
           tabIndex={33}
@@ -90,7 +89,7 @@ const Controls = props => {
             <MapModesDropdown />
           }
         </AnimatePresence>
-      </div>*/}
+      </div>
     </div>
   )
 

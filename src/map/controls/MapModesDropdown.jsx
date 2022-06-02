@@ -30,7 +30,7 @@ const MapModesDropdown = () => {
       exit={{ maxWidth: 0 }}>
       <h1>Display map data as:</h1>
       <ul>
-        {['points', 'clusters', 'heatmap'].map(label =>
+        {['points', 'choropleth'].map(label =>
           <Mode
             key={label}
             selected={label === mapMode}

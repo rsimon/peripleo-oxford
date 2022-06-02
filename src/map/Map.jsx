@@ -13,6 +13,7 @@ import LayersUncategorized from './LayersUncategorized';
 import Controls from './controls/Controls';
 import HoverBubble from '../customized/HoverBubble';
 import SelectionPreview from './selection/SelectionPreview';
+import LayerChoropleth from './LayerChoropleth';
 
 const Map = React.forwardRef((props, ref) => {
 
@@ -60,29 +61,31 @@ const Map = React.forwardRef((props, ref) => {
     setViewstate(evt.viewState);
   }, []);
 
-  const onMouseMove = useCallback(evt => {
-    const { point } = evt;
+  const onMouseMove = evt => {
+    if (modeState !== 'choropleth') {
+      const { point } = evt;
 
-    const features = mapRef.current
-      .queryRenderedFeatures(evt.point)
-      .filter(f => f.layer.id.startsWith('p6o'));
+      const features = mapRef.current
+        .queryRenderedFeatures(evt.point)
+        .filter(f => f.layer.id.startsWith('p6o'));
 
-    if (features.length > 0) {
-      const { id } = features[0].properties;
+      if (features.length > 0) {
+        const { id } = features[0].properties;
 
-      const updated = id === hover?.id ? {
-        ...hover, ...point
-      } : { 
-        node: store.getNode(id),
-        feature: features[0],
-        ...point
-      };
-  
-      setHover(updated);
-    } else {
-      setHover(null);
+        const updated = id === hover?.id ? {
+          ...hover, ...point
+        } : { 
+          node: store.getNode(id),
+          feature: features[0],
+          ...point
+        };
+    
+        setHover(updated);
+      } else {
+        setHover(null);
+      }
     }
-  }, []);
+  };
 
   const onClick = () => {
     if (hover) {
@@ -118,18 +121,22 @@ const Map = React.forwardRef((props, ref) => {
 
         {layerState.length > 0 && layerState.map((layer, idx) => parseLayerConfig(layer, idx))}
 
-        {search.facetDistribution ?
-          <LayersCategorized 
-            selectedMode={modeState}
+        {modeState === 'choropleth' ? 
+          <LayerChoropleth 
             index={layerState.length + 1}
-            search={search} /> 
-          
-          :
-          
-          <LayersUncategorized 
-            selectedMode={modeState}
-            index={layerState.length + 1}
-            search={search} />
+            search={search} /> : search.facetDistribution ?
+
+              <LayersCategorized 
+                selectedMode={modeState}
+                index={layerState.length + 1}
+                search={search} /> 
+              
+              :
+              
+              <LayersUncategorized 
+                selectedMode={modeState}
+                index={layerState.length + 1}
+                search={search} />    
         }
 
         {selection && 
