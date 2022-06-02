@@ -68,7 +68,7 @@ const buildRegions = (counts, items, regions, colors) => {
   return aggregated;
 }
 
-const LayerChoropleth = props => {
+const LayerChoroplethRegions = props => {
 
   const { availableFacets } = useContext(FacetsContext);
   
@@ -108,4 +108,4 @@ const LayerChoropleth = props => {
 
 }
 
-export default LayerChoropleth;
+export default LayerChoroplethRegions;

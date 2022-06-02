@@ -13,7 +13,9 @@ import LayersUncategorized from './LayersUncategorized';
 import Controls from './controls/Controls';
 import HoverBubble from '../customized/HoverBubble';
 import SelectionPreview from './selection/SelectionPreview';
-import LayerChoropleth from './LayerChoropleth';
+
+import LayerChoroplethRegions from './LayerChoroplethRegions';
+import LayerChoroplethVoronoi from './LayerChoroplethVoronoi';
 
 const Map = React.forwardRef((props, ref) => {
 
@@ -122,7 +124,7 @@ const Map = React.forwardRef((props, ref) => {
         {layerState.length > 0 && layerState.map((layer, idx) => parseLayerConfig(layer, idx))}
 
         {modeState === 'choropleth' ? 
-          <LayerChoropleth 
+          <LayerChoroplethVoronoi
             index={layerState.length + 1}
             search={search} /> : search.facetDistribution ?
 
