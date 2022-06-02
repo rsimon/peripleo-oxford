@@ -17,10 +17,7 @@ const AudioWaveform = props => {
         height:64
       });
 
-      // Sample file for testin
-      console.log('Loading: ' + props.src);
-      wavesurfer.load('sample-6s.mp3');
-
+      wavesurfer.load(`/audio/${props.src}`);
       setWavesurfer(wavesurfer);
     }
   }, []);
