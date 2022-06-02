@@ -1,0 +1,4762 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "@id": "AGIA_1901",
+      "properties": {
+        "title": "AGIA",
+        "village": "AGIA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 253,
+        "Turkish Cypriot": 253,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56333,
+          35.10861
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIA_1946",
+      "properties": {
+        "title": "AGIA",
+        "village": "AGIA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 413,
+        "Turkish Cypriot": 413,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56333,
+          35.10861
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIA_1960",
+      "properties": {
+        "title": "AGIA",
+        "village": "AGIA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 418,
+        "Turkish Cypriot": 418,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56333,
+          35.10861
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIA_1973",
+      "properties": {
+        "title": "AGIA",
+        "village": "AGIA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 529,
+        "Turkish Cypriot": 529,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56333,
+          35.10861
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIA_2000s",
+      "properties": {
+        "title": "AGIA",
+        "village": "AGIA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 590,
+        "Turkish Cypriot": 590,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56333,
+          35.10861
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "Agia Marina_1901",
+      "properties": {
+        "title": "Agia Marina",
+        "village": "Agia Marina",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 130,
+        "Turkish Cypriot": 38,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.13333,
+          35.21667
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "Agia Marina_1946",
+      "properties": {
+        "title": "Agia Marina",
+        "village": "Agia Marina",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 324,
+        "Turkish Cypriot": 37,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 287
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.13333,
+          35.21667
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "Agia Marina_1960",
+      "properties": {
+        "title": "Agia Marina",
+        "village": "Agia Marina",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 440,
+        "Turkish Cypriot": 65,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.13333,
+          35.21667
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "Agia Marina_1973",
+      "properties": {
+        "title": "Agia Marina",
+        "village": "Agia Marina",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 414,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.13333,
+          35.21667
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "Agia Marina_2000s",
+      "properties": {
+        "title": "Agia Marina",
+        "village": "Agia Marina",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.13333,
+          35.21667
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGLANGIA_1901",
+      "properties": {
+        "title": "AGLANGIA",
+        "village": "AGLANGIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 519,
+        "Turkish Cypriot": 31,
+        "Greek Cypriot": 488,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.39017,
+          35.14592
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGLANGIA_1946",
+      "properties": {
+        "title": "AGLANGIA",
+        "village": "AGLANGIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 2161,
+        "Turkish Cypriot": 131,
+        "Greek Cypriot": 1877,
+        "Arabic Cypriot": 153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.39017,
+          35.14592
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGLANGIA_1960",
+      "properties": {
+        "title": "AGLANGIA",
+        "village": "AGLANGIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 4175,
+        "Turkish Cypriot": 316,
+        "Greek Cypriot": 3593,
+        "Arabic Cypriot": 266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.39017,
+          35.14592
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGLANGIA_1973",
+      "properties": {
+        "title": "AGLANGIA",
+        "village": "AGLANGIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 5762,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 5730,
+        "Arabic Cypriot": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.39017,
+          35.14592
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGLANGIA_2000s",
+      "properties": {
+        "title": "AGLANGIA",
+        "village": "AGLANGIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 18953,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 18953,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.39017,
+          35.14592
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS SOZOMENOS_1901",
+      "properties": {
+        "title": "AGIOS SOZOMENOS",
+        "village": "AGIOS SOZOMENOS",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 112,
+        "Turkish Cypriot": 68,
+        "Greek Cypriot": 44,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43833,
+          35.06583
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS SOZOMENOS_1946",
+      "properties": {
+        "title": "AGIOS SOZOMENOS",
+        "village": "AGIOS SOZOMENOS",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 164,
+        "Turkish Cypriot": 128,
+        "Greek Cypriot": 36,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43833,
+          35.06583
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS SOZOMENOS_1960",
+      "properties": {
+        "title": "AGIOS SOZOMENOS",
+        "village": "AGIOS SOZOMENOS",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 197,
+        "Turkish Cypriot": 172,
+        "Greek Cypriot": 25,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43833,
+          35.06583
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS SOZOMENOS_1973",
+      "properties": {
+        "title": "AGIOS SOZOMENOS",
+        "village": "AGIOS SOZOMENOS",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43833,
+          35.06583
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS SOZOMENOS_2000s",
+      "properties": {
+        "title": "AGIOS SOZOMENOS",
+        "village": "AGIOS SOZOMENOS",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43833,
+          35.06583
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS VASILEIOS_1901",
+      "properties": {
+        "title": "AGIOS VASILEIOS",
+        "village": "AGIOS VASILEIOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 242,
+        "Turkish Cypriot": 60,
+        "Greek Cypriot": 182,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.18306,
+          35.21917
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS VASILEIOS_1946",
+      "properties": {
+        "title": "AGIOS VASILEIOS",
+        "village": "AGIOS VASILEIOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 415,
+        "Turkish Cypriot": 74,
+        "Greek Cypriot": 341,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.18306,
+          35.21917
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS VASILEIOS_1960",
+      "properties": {
+        "title": "AGIOS VASILEIOS",
+        "village": "AGIOS VASILEIOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 609,
+        "Turkish Cypriot": 117,
+        "Greek Cypriot": 492,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.18306,
+          35.21917
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS VASILEIOS_1973",
+      "properties": {
+        "title": "AGIOS VASILEIOS",
+        "village": "AGIOS VASILEIOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 611,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 611,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.18306,
+          35.21917
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS VASILEIOS_2000s",
+      "properties": {
+        "title": "AGIOS VASILEIOS",
+        "village": "AGIOS VASILEIOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.18306,
+          35.21917
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ALAMPRA_1901",
+      "properties": {
+        "title": "ALAMPRA",
+        "village": "ALAMPRA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 238,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 238,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4,
+          34.99167
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ALAMPRA_1946",
+      "properties": {
+        "title": "ALAMPRA",
+        "village": "ALAMPRA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 416,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 416,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4,
+          34.99167
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ALAMPRA_1960",
+      "properties": {
+        "title": "ALAMPRA",
+        "village": "ALAMPRA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 546,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 546,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4,
+          34.99167
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ALAMPRA_1973",
+      "properties": {
+        "title": "ALAMPRA",
+        "village": "ALAMPRA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 615,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 615,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4,
+          34.99167
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ALAMPRA_2000s",
+      "properties": {
+        "title": "ALAMPRA",
+        "village": "ALAMPRA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 1140,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1140,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4,
+          34.99167
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AREDIOU_1901",
+      "properties": {
+        "title": "AREDIOU",
+        "village": "AREDIOU",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 207,
+        "Turkish Cypriot": 68,
+        "Greek Cypriot": 139,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19472,
+          35.0475
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AREDIOU_1946",
+      "properties": {
+        "title": "AREDIOU",
+        "village": "AREDIOU",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 322,
+        "Turkish Cypriot": 86,
+        "Greek Cypriot": 236,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19472,
+          35.0475
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AREDIOU_1960",
+      "properties": {
+        "title": "AREDIOU",
+        "village": "AREDIOU",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 355,
+        "Turkish Cypriot": 90,
+        "Greek Cypriot": 265,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19472,
+          35.0475
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AREDIOU_1973",
+      "properties": {
+        "title": "AREDIOU",
+        "village": "AREDIOU",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 366,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 366,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19472,
+          35.0475
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AREDIOU_2000s",
+      "properties": {
+        "title": "AREDIOU",
+        "village": "AREDIOU",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 1084,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1084,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19472,
+          35.0475
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DALI_1901",
+      "properties": {
+        "title": "DALI",
+        "village": "DALI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 1109,
+        "Turkish Cypriot": 120,
+        "Greek Cypriot": 989,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42,
+          35.02111
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DALI_1946",
+      "properties": {
+        "title": "DALI",
+        "village": "DALI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 1965,
+        "Turkish Cypriot": 151,
+        "Greek Cypriot": 1814,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42,
+          35.02111
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DALI_1960",
+      "properties": {
+        "title": "DALI",
+        "village": "DALI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 2609,
+        "Turkish Cypriot": 206,
+        "Greek Cypriot": 2403,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42,
+          35.02111
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DALI_1973",
+      "properties": {
+        "title": "DALI",
+        "village": "DALI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 3052,
+        "Turkish Cypriot": 74,
+        "Greek Cypriot": 2978,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42,
+          35.02111
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DALI_2000s",
+      "properties": {
+        "title": "DALI",
+        "village": "DALI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 5834,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 5834,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42,
+          35.02111
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROLAKKOS_1901",
+      "properties": {
+        "title": "GEROLAKKOS",
+        "village": "GEROLAKKOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 585,
+        "Turkish Cypriot": 10,
+        "Greek Cypriot": 575,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.18333
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROLAKKOS_1946",
+      "properties": {
+        "title": "GEROLAKKOS",
+        "village": "GEROLAKKOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 1383,
+        "Turkish Cypriot": 36,
+        "Greek Cypriot": 1347,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.18333
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROLAKKOS_1960",
+      "properties": {
+        "title": "GEROLAKKOS",
+        "village": "GEROLAKKOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 1865,
+        "Turkish Cypriot": 2,
+        "Greek Cypriot": 1863,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.18333
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROLAKKOS_1973",
+      "properties": {
+        "title": "GEROLAKKOS",
+        "village": "GEROLAKKOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 2455,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 2455,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.18333
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROLAKKOS_2000s",
+      "properties": {
+        "title": "GEROLAKKOS",
+        "village": "GEROLAKKOS",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 2539,
+        "Turkish Cypriot": 2539,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.18333
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KAKOPETRIA_1901",
+      "properties": {
+        "title": "KAKOPETRIA",
+        "village": "KAKOPETRIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9,
+          34.98333
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KAKOPETRIA_1946",
+      "properties": {
+        "title": "KAKOPETRIA",
+        "village": "KAKOPETRIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9,
+          34.98333
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KAKOPETRIA_1960",
+      "properties": {
+        "title": "KAKOPETRIA",
+        "village": "KAKOPETRIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9,
+          34.98333
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KAKOPETRIA_1973",
+      "properties": {
+        "title": "KAKOPETRIA",
+        "village": "KAKOPETRIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9,
+          34.98333
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KAKOPETRIA_2000s",
+      "properties": {
+        "title": "KAKOPETRIA",
+        "village": "KAKOPETRIA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9,
+          34.98333
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "kakopetria_Track6_21.8403_to_25.306769.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "MAMMARI_1901",
+      "properties": {
+        "title": "MAMMARI",
+        "village": "MAMMARI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 241,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 241,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20183,
+          35.17374
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MAMMARI_1946",
+      "properties": {
+        "title": "MAMMARI",
+        "village": "MAMMARI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 595,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 595,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20183,
+          35.17374
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MAMMARI_1960",
+      "properties": {
+        "title": "MAMMARI",
+        "village": "MAMMARI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 839,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 839,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20183,
+          35.17374
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MAMMARI_1973",
+      "properties": {
+        "title": "MAMMARI",
+        "village": "MAMMARI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 987,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 987,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20183,
+          35.17374
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MAMMARI_2000s",
+      "properties": {
+        "title": "MAMMARI",
+        "village": "MAMMARI",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 1052,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1052,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20183,
+          35.17374
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MORPHOU_1901",
+      "properties": {
+        "title": "MORPHOU",
+        "village": "MORPHOU",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 2762,
+        "Turkish Cypriot": 114,
+        "Greek Cypriot": 2648,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.99389,
+          35.19806
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MORPHOU_1946",
+      "properties": {
+        "title": "MORPHOU",
+        "village": "MORPHOU",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 5446,
+        "Turkish Cypriot": 179,
+        "Greek Cypriot": 5267,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.99389,
+          35.19806
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MORPHOU_1960",
+      "properties": {
+        "title": "MORPHOU",
+        "village": "MORPHOU",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 6603,
+        "Turkish Cypriot": 123,
+        "Greek Cypriot": 6480,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.99389,
+          35.19806
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "MORPHOU_1973",
+      "properties": {
+        "title": "MORPHOU",
+        "village": "MORPHOU",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 7465,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 7465,
+        "Arabic Cypriot": 0,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.99389,
+          35.19806
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      },
+      "audio": [
+        "002a_Kupros_1969_Raw_HSd9.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "MORPHOU_2000s",
+      "properties": {
+        "title": "MORPHOU",
+        "village": "MORPHOU",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 12391,
+        "Turkish Cypriot": 12391,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.99389,
+          35.19806
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1901",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 14481,
+        "Turkish Cypriot": 5992,
+        "Greek Cypriot": 8489,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1946",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 34485,
+        "Turkish Cypriot": 10330,
+        "Greek Cypriot": 20768,
+        "Arabic Cypriot": 3387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1960",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 45629,
+        "Turkish Cypriot": 14686,
+        "Greek Cypriot": 27645,
+        "Arabic Cypriot": 3298
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1973",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_2000s",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "S"
+        ],
+        "Total": 55104,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 55104,
+        "Arabic Cypriot": 0,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "Nicosia_Track2_50.116907_to_56.920946.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1901",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.36324,
+          35.17701
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1946",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.36324,
+          35.17701
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1960",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.36324,
+          35.17701
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_1973",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.36324,
+          35.17701
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "NICOSIA/ LEFKOSİA_2000s",
+      "properties": {
+        "title": "NICOSIA/ LEFKOSİA",
+        "village": "NICOSIA/ LEFKOSİA",
+        "region": "Nicosia",
+        "location": [
+          "N"
+        ],
+        "Total": 61378,
+        "Turkish Cypriot": 61378,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.36324,
+          35.17701
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "The_North_Wind_and_the_sun-Cypriot_Turkish_8.121173_to_11.631073.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "LIMASSOL/LEMOSSOS_1901",
+      "properties": {
+        "title": "LIMASSOL/LEMOSSOS",
+        "village": "LIMASSOL/LEMOSSOS",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 8298,
+        "Turkish Cypriot": 1937,
+        "Greek Cypriot": 6361,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04417,
+          34.67472
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIMASSOL/LEMOSSOS_1946",
+      "properties": {
+        "title": "LIMASSOL/LEMOSSOS",
+        "village": "LIMASSOL/LEMOSSOS",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 22074,
+        "Turkish Cypriot": 3444,
+        "Greek Cypriot": 18630,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04417,
+          34.67472
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIMASSOL/LEMOSSOS_1960",
+      "properties": {
+        "title": "LIMASSOL/LEMOSSOS",
+        "village": "LIMASSOL/LEMOSSOS",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": 6115,
+        "Greek Cypriot": 31263,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04417,
+          34.67472
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIMASSOL/LEMOSSOS_1973",
+      "properties": {
+        "title": "LIMASSOL/LEMOSSOS",
+        "village": "LIMASSOL/LEMOSSOS",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": 8000,
+        "Greek Cypriot": 34206,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04417,
+          34.67472
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIMASSOL/LEMOSSOS_2000s",
+      "properties": {
+        "title": "LIMASSOL/LEMOSSOS",
+        "village": "LIMASSOL/LEMOSSOS",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 94250,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 94250,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04417,
+          34.67472
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "EPISKOPI_1901",
+      "properties": {
+        "title": "EPISKOPI",
+        "village": "EPISKOPI",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 892,
+        "Turkish Cypriot": 547,
+        "Greek Cypriot": 345,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.90194,
+          34.67083
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "EPISKOPI_1946",
+      "properties": {
+        "title": "EPISKOPI",
+        "village": "EPISKOPI",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 1231,
+        "Turkish Cypriot": 659,
+        "Greek Cypriot": 572,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.90194,
+          34.67083
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "EPISKOPI_1960",
+      "properties": {
+        "title": "EPISKOPI",
+        "village": "EPISKOPI",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 1961,
+        "Turkish Cypriot": 1144,
+        "Greek Cypriot": 817,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.90194,
+          34.67083
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "EPISKOPI_1973",
+      "properties": {
+        "title": "EPISKOPI",
+        "village": "EPISKOPI",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 2440,
+        "Turkish Cypriot": 1596,
+        "Greek Cypriot": 844,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.90194,
+          34.67083
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "EPISKOPI_2000s",
+      "properties": {
+        "title": "EPISKOPI",
+        "village": "EPISKOPI",
+        "region": "Limassol",
+        "location": [
+          "S"
+        ],
+        "Total": 3076,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 3076,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.90194,
+          34.67083
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PAPHOS_1901",
+      "properties": {
+        "title": "PAPHOS",
+        "village": "PAPHOS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 3134,
+        "Turkish Cypriot": 1564,
+        "Greek Cypriot": 1570,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PAPHOS_1946",
+      "properties": {
+        "title": "PAPHOS",
+        "village": "PAPHOS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 5764,
+        "Turkish Cypriot": 2147,
+        "Greek Cypriot": 3617,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PAPHOS_1960",
+      "properties": {
+        "title": "PAPHOS",
+        "village": "PAPHOS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 9083,
+        "Turkish Cypriot": 2851,
+        "Greek Cypriot": 6232,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PAPHOS_1973",
+      "properties": {
+        "title": "PAPHOS",
+        "village": "PAPHOS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      },
+      "audio": [
+        "020b_Xios_Kypros_Samos_HS_d_17.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "PAPHOS_2000s",
+      "properties": {
+        "title": "PAPHOS",
+        "village": "PAPHOS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 26530,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 26530,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROSKIPOU_1901",
+      "properties": {
+        "title": "GEROSKIPOU",
+        "village": "GEROSKIPOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 688,
+        "Turkish Cypriot": 119,
+        "Greek Cypriot": 569,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROSKIPOU_1946",
+      "properties": {
+        "title": "GEROSKIPOU",
+        "village": "GEROSKIPOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1372,
+        "Turkish Cypriot": 147,
+        "Greek Cypriot": 1225,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROSKIPOU_1960",
+      "properties": {
+        "title": "GEROSKIPOU",
+        "village": "GEROSKIPOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1722,
+        "Turkish Cypriot": 170,
+        "Greek Cypriot": 1552,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROSKIPOU_1973",
+      "properties": {
+        "title": "GEROSKIPOU",
+        "village": "GEROSKIPOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 2021,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 2021,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "GEROSKIPOU_2000s",
+      "properties": {
+        "title": "GEROSKIPOU",
+        "village": "GEROSKIPOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 5509,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 5509,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46667,
+          34.76667
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LETYMVOU_1901",
+      "properties": {
+        "title": "LETYMVOU",
+        "village": "LETYMVOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.51361,
+          34.85556
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LETYMVOU_1946",
+      "properties": {
+        "title": "LETYMVOU",
+        "village": "LETYMVOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.51361,
+          34.85556
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LETYMVOU_1960",
+      "properties": {
+        "title": "LETYMVOU",
+        "village": "LETYMVOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.51361,
+          34.85556
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LETYMVOU_1973",
+      "properties": {
+        "title": "LETYMVOU",
+        "village": "LETYMVOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.51361,
+          34.85556
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LETYMVOU_2000s",
+      "properties": {
+        "title": "LETYMVOU",
+        "village": "LETYMVOU",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": null,
+        "Greek Cypriot": null,
+        "Arabic Cypriot": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.51361,
+          34.85556
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "Letymvou_Track5_83.831543_to_89.434896.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "POLIS_1901",
+      "properties": {
+        "title": "POLIS",
+        "village": "POLIS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 600,
+        "Turkish Cypriot": 256,
+        "Greek Cypriot": 344,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.43333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "POLIS_1946",
+      "properties": {
+        "title": "POLIS",
+        "village": "POLIS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1198,
+        "Turkish Cypriot": 427,
+        "Greek Cypriot": 771,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.43333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "POLIS_1960",
+      "properties": {
+        "title": "POLIS",
+        "village": "POLIS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1627,
+        "Turkish Cypriot": 664,
+        "Greek Cypriot": 963,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.43333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "POLIS_1973",
+      "properties": {
+        "title": "POLIS",
+        "village": "POLIS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1461,
+        "Turkish Cypriot": 714,
+        "Greek Cypriot": 747,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.43333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "POLIS_2000s",
+      "properties": {
+        "title": "POLIS",
+        "village": "POLIS",
+        "region": "Paphos",
+        "location": [
+          "S"
+        ],
+        "Total": 1262,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1262,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.43333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PARALIMNI_1901",
+      "properties": {
+        "title": "PARALIMNI",
+        "village": "PARALIMNI",
+        "region": "Famagusta",
+        "location": [
+          "S"
+        ],
+        "Total": 1053,
+        "Turkish Cypriot": 1,
+        "Greek Cypriot": 1052,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PARALIMNI_1946",
+      "properties": {
+        "title": "PARALIMNI",
+        "village": "PARALIMNI",
+        "region": "Famagusta",
+        "location": [
+          "S"
+        ],
+        "Total": 2720,
+        "Turkish Cypriot": 4,
+        "Greek Cypriot": 2716,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PARALIMNI_1960",
+      "properties": {
+        "title": "PARALIMNI",
+        "village": "PARALIMNI",
+        "region": "Famagusta",
+        "location": [
+          "S"
+        ],
+        "Total": 3477,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 3477,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PARALIMNI_1973",
+      "properties": {
+        "title": "PARALIMNI",
+        "village": "PARALIMNI",
+        "region": "Famagusta",
+        "location": [
+          "S"
+        ],
+        "Total": 4618,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 4618,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PARALIMNI_2000s",
+      "properties": {
+        "title": "PARALIMNI",
+        "village": "PARALIMNI",
+        "region": "Famagusta",
+        "location": [
+          "S"
+        ],
+        "Total": 11091,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 11091,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98333,
+          35.03333
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "RIZOKARPASSO_1901",
+      "properties": {
+        "title": "RIZOKARPASSO",
+        "village": "RIZOKARPASSO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2299,
+        "Turkish Cypriot": 16,
+        "Greek Cypriot": 2283,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38056,
+          35.59861
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "RIZOKARPASSO_1946",
+      "properties": {
+        "title": "RIZOKARPASSO",
+        "village": "RIZOKARPASSO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 4063,
+        "Turkish Cypriot": 11,
+        "Greek Cypriot": 4052,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38056,
+          35.59861
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "RIZOKARPASSO_1960",
+      "properties": {
+        "title": "RIZOKARPASSO",
+        "village": "RIZOKARPASSO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 3153,
+        "Turkish Cypriot": 2,
+        "Greek Cypriot": 3151,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38056,
+          35.59861
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "RIZOKARPASSO_1973",
+      "properties": {
+        "title": "RIZOKARPASSO",
+        "village": "RIZOKARPASSO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2626,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 2626,
+        "Arabic Cypriot": 0,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38056,
+          35.59861
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      },
+      "audio": [
+        "004b_TimiPafou_Kypros_1969_HS_c1.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "RIZOKARPASSO_2000s",
+      "properties": {
+        "title": "RIZOKARPASSO",
+        "village": "RIZOKARPASSO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1935,
+        "Turkish Cypriot": 1935,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38056,
+          35.59861
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "TRIKOMO_1901",
+      "properties": {
+        "title": "TRIKOMO",
+        "village": "TRIKOMO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1262,
+        "Turkish Cypriot": 15,
+        "Greek Cypriot": 1247,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89167,
+          35.2875
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "TRIKOMO_1946",
+      "properties": {
+        "title": "TRIKOMO",
+        "village": "TRIKOMO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2087,
+        "Turkish Cypriot": 6,
+        "Greek Cypriot": 2081,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89167,
+          35.2875
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "TRIKOMO_1960",
+      "properties": {
+        "title": "TRIKOMO",
+        "village": "TRIKOMO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2195,
+        "Turkish Cypriot": 7,
+        "Greek Cypriot": 2188,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89167,
+          35.2875
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "TRIKOMO_1973",
+      "properties": {
+        "title": "TRIKOMO",
+        "village": "TRIKOMO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2323,
+        "Turkish Cypriot": 2323,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89167,
+          35.2875
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "TRIKOMO_2000s",
+      "properties": {
+        "title": "TRIKOMO",
+        "village": "TRIKOMO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 3657,
+        "Turkish Cypriot": 3657,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89167,
+          35.2875
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AKANTHOU_1901",
+      "properties": {
+        "title": "AKANTHOU",
+        "village": "AKANTHOU",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1403,
+        "Turkish Cypriot": 51,
+        "Greek Cypriot": 1352,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75583,
+          35.37417
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AKANTHOU_1946",
+      "properties": {
+        "title": "AKANTHOU",
+        "village": "AKANTHOU",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1790,
+        "Turkish Cypriot": 8,
+        "Greek Cypriot": 1782,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75583,
+          35.37417
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AKANTHOU_1960",
+      "properties": {
+        "title": "AKANTHOU",
+        "village": "AKANTHOU",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1507,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1507,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75583,
+          35.37417
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AKANTHOU_1973",
+      "properties": {
+        "title": "AKANTHOU",
+        "village": "AKANTHOU",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1294,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1294,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75583,
+          35.37417
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AKANTHOU_2000s",
+      "properties": {
+        "title": "AKANTHOU",
+        "village": "AKANTHOU",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1160,
+        "Turkish Cypriot": 1160,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75583,
+          35.37417
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKONOİKO_1901",
+      "properties": {
+        "title": "LEFKONOİKO",
+        "village": "LEFKONOİKO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1831,
+        "Turkish Cypriot": 118,
+        "Greek Cypriot": 1713,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.73167,
+          35.26
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKONOİKO_1946",
+      "properties": {
+        "title": "LEFKONOİKO",
+        "village": "LEFKONOİKO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2596,
+        "Turkish Cypriot": 126,
+        "Greek Cypriot": 2470,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.73167,
+          35.26
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKONOİKO_1960",
+      "properties": {
+        "title": "LEFKONOİKO",
+        "village": "LEFKONOİKO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2358,
+        "Turkish Cypriot": 3,
+        "Greek Cypriot": 2355,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.73167,
+          35.26
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKONOİKO_1973",
+      "properties": {
+        "title": "LEFKONOİKO",
+        "village": "LEFKONOİKO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 2116,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 2116,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.73167,
+          35.26
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKONOİKO_2000s",
+      "properties": {
+        "title": "LEFKONOİKO",
+        "village": "LEFKONOİKO",
+        "region": "Famagusta",
+        "location": [
+          "N"
+        ],
+        "Total": 1309,
+        "Turkish Cypriot": 1309,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.73167,
+          35.26
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KYRENIA_1901",
+      "properties": {
+        "title": "KYRENIA",
+        "village": "KYRENIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 1336,
+        "Turkish Cypriot": 487,
+        "Greek Cypriot": 849,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.31917,
+          35.34028
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KYRENIA_1946",
+      "properties": {
+        "title": "KYRENIA",
+        "village": "KYRENIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 2776,
+        "Turkish Cypriot": 572,
+        "Greek Cypriot": 2204,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.31917,
+          35.34028
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KYRENIA_1960",
+      "properties": {
+        "title": "KYRENIA",
+        "village": "KYRENIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 3069,
+        "Turkish Cypriot": 696,
+        "Greek Cypriot": 2373,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.31917,
+          35.34028
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KYRENIA_1973",
+      "properties": {
+        "title": "KYRENIA",
+        "village": "KYRENIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 3635,
+        "Turkish Cypriot": 1000,
+        "Greek Cypriot": 2635,
+        "Arabic Cypriot": 0,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.31917,
+          35.34028
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      },
+      "audio": [
+        "013a_Kupros_HS_1343.422046_to_1346.510213.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "KYRENIA_2000s",
+      "properties": {
+        "title": "KYRENIA",
+        "village": "KYRENIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 23839,
+        "Turkish Cypriot": 23839,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.31917,
+          35.34028
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KORMAKITIS_1901",
+      "properties": {
+        "title": "KORMAKITIS",
+        "village": "KORMAKITIS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 513,
+        "Turkish Cypriot": 10,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 503
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01083,
+          35.34278
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KORMAKITIS_1946",
+      "properties": {
+        "title": "KORMAKITIS",
+        "village": "KORMAKITIS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 894,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 5,
+        "Arabic Cypriot": 889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01083,
+          35.34278
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KORMAKITIS_1960",
+      "properties": {
+        "title": "KORMAKITIS",
+        "village": "KORMAKITIS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 1111,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 18,
+        "Arabic Cypriot": 1093
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01083,
+          35.34278
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KORMAKITIS_1973",
+      "properties": {
+        "title": "KORMAKITIS",
+        "village": "KORMAKITIS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 1257,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 1257
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01083,
+          35.34278
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KORMAKITIS_2000s",
+      "properties": {
+        "title": "KORMAKITIS",
+        "village": "KORMAKITIS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 195,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 195
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01083,
+          35.34278
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ASOMATOS_1901",
+      "properties": {
+        "title": "ASOMATOS",
+        "village": "ASOMATOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 240,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10694,
+          35.27583
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ASOMATOS_1946",
+      "properties": {
+        "title": "ASOMATOS",
+        "village": "ASOMATOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 417,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 5,
+        "Arabic Cypriot": 412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10694,
+          35.27583
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ASOMATOS_1960",
+      "properties": {
+        "title": "ASOMATOS",
+        "village": "ASOMATOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 506,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 9,
+        "Arabic Cypriot": 497
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10694,
+          35.27583
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ASOMATOS_1973",
+      "properties": {
+        "title": "ASOMATOS",
+        "village": "ASOMATOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 527,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 527
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10694,
+          35.27583
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ASOMATOS_2000s",
+      "properties": {
+        "title": "ASOMATOS",
+        "village": "ASOMATOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 82,
+        "Turkish Cypriot": 82,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10694,
+          35.27583
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KARPASEIA_1901",
+      "properties": {
+        "title": "KARPASEIA",
+        "village": "KARPASEIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 67,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 67,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.07111,
+          35.29778
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KARPASEIA_1946",
+      "properties": {
+        "title": "KARPASEIA",
+        "village": "KARPASEIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 183,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 4,
+        "Arabic Cypriot": 179
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.07111,
+          35.29778
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KARPASEIA_1960",
+      "properties": {
+        "title": "KARPASEIA",
+        "village": "KARPASEIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 193,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 3,
+        "Arabic Cypriot": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.07111,
+          35.29778
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KARPASEIA_1973",
+      "properties": {
+        "title": "KARPASEIA",
+        "village": "KARPASEIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 245,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.07111,
+          35.29778
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "KARPASEIA_2000s",
+      "properties": {
+        "title": "KARPASEIA",
+        "village": "KARPASEIA",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 89,
+        "Turkish Cypriot": 89,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.07111,
+          35.29778
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LAPITHOS_1901",
+      "properties": {
+        "title": "LAPITHOS",
+        "village": "LAPITHOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 2714,
+        "Turkish Cypriot": 269,
+        "Greek Cypriot": 2445,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19778,
+          35.35528
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LAPITHOS_1946",
+      "properties": {
+        "title": "LAPITHOS",
+        "village": "LAPITHOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 3309,
+        "Turkish Cypriot": 312,
+        "Greek Cypriot": 2997,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19778,
+          35.35528
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LAPITHOS_1960",
+      "properties": {
+        "title": "LAPITHOS",
+        "village": "LAPITHOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 3494,
+        "Turkish Cypriot": 370,
+        "Greek Cypriot": 3124,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19778,
+          35.35528
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LAPITHOS_1973",
+      "properties": {
+        "title": "LAPITHOS",
+        "village": "LAPITHOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 3196,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 3196,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19778,
+          35.35528
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LAPITHOS_2000s",
+      "properties": {
+        "title": "LAPITHOS",
+        "village": "LAPITHOS",
+        "region": "Kyrenia",
+        "location": [
+          "N"
+        ],
+        "Total": 5658,
+        "Turkish Cypriot": 5658,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.19778,
+          35.35528
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LARNACA_1901",
+      "properties": {
+        "title": "LARNACA",
+        "village": "LARNACA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 7964,
+        "Turkish Cypriot": 2004,
+        "Greek Cypriot": 5960,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          34.91667
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LARNACA_1946",
+      "properties": {
+        "title": "LARNACA",
+        "village": "LARNACA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": 2928,
+        "Greek Cypriot": 10605,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          34.91667
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LARNACA_1960",
+      "properties": {
+        "title": "LARNACA",
+        "village": "LARNACA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": 4058,
+        "Greek Cypriot": 13101,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          34.91667
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LARNACA_1973",
+      "properties": {
+        "title": "LARNACA",
+        "village": "LARNACA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": null,
+        "Turkish Cypriot": 4000,
+        "Greek Cypriot": 14914,
+        "Arabic Cypriot": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          34.91667
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LARNACA_2000s",
+      "properties": {
+        "title": "LARNACA",
+        "village": "LARNACA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 46666,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 46666,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          34.91667
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKARA_1901",
+      "properties": {
+        "title": "LEFKARA",
+        "village": "LEFKARA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 2325,
+        "Turkish Cypriot": 270,
+        "Greek Cypriot": 2055,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3,
+          34.86667
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKARA_1946",
+      "properties": {
+        "title": "LEFKARA",
+        "village": "LEFKARA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 3003,
+        "Turkish Cypriot": 473,
+        "Greek Cypriot": 2530,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3,
+          34.86667
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKARA_1960",
+      "properties": {
+        "title": "LEFKARA",
+        "village": "LEFKARA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 2075,
+        "Turkish Cypriot": 361,
+        "Greek Cypriot": 1714,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3,
+          34.86667
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKARA_1973",
+      "properties": {
+        "title": "LEFKARA",
+        "village": "LEFKARA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1361,
+        "Turkish Cypriot": 31,
+        "Greek Cypriot": 1330,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3,
+          34.86667
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LEFKARA_2000s",
+      "properties": {
+        "title": "LEFKARA",
+        "village": "LEFKARA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1039,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1039,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3,
+          34.86667
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIVADIA_1901",
+      "properties": {
+        "title": "LIVADIA",
+        "village": "LIVADIA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 517,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 517,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63111,
+          34.94944
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIVADIA_1946",
+      "properties": {
+        "title": "LIVADIA",
+        "village": "LIVADIA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1080,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1080,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63111,
+          34.94944
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIVADIA_1960",
+      "properties": {
+        "title": "LIVADIA",
+        "village": "LIVADIA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1329,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1329,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63111,
+          34.94944
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIVADIA_1973",
+      "properties": {
+        "title": "LIVADIA",
+        "village": "LIVADIA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1301,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 1301,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63111,
+          34.94944
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "LIVADIA_2000s",
+      "properties": {
+        "title": "LIVADIA",
+        "village": "LIVADIA",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 4833,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 4833,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63111,
+          34.94944
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PERGAMOS_1901",
+      "properties": {
+        "title": "PERGAMOS",
+        "village": "PERGAMOS",
+        "region": "Larnaca",
+        "location": [
+          "N"
+        ],
+        "Total": 133,
+        "Turkish Cypriot": 120,
+        "Greek Cypriot": 13,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.70694,
+          35.04278
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PERGAMOS_1946",
+      "properties": {
+        "title": "PERGAMOS",
+        "village": "PERGAMOS",
+        "region": "Larnaca",
+        "location": [
+          "N"
+        ],
+        "Total": 452,
+        "Turkish Cypriot": 452,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.70694,
+          35.04278
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PERGAMOS_1960",
+      "properties": {
+        "title": "PERGAMOS",
+        "village": "PERGAMOS",
+        "region": "Larnaca",
+        "location": [
+          "N"
+        ],
+        "Total": 826,
+        "Turkish Cypriot": 826,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.70694,
+          35.04278
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PERGAMOS_1973",
+      "properties": {
+        "title": "PERGAMOS",
+        "village": "PERGAMOS",
+        "region": "Larnaca",
+        "location": [
+          "N"
+        ],
+        "Total": 1190,
+        "Turkish Cypriot": 1190,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.70694,
+          35.04278
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "PERGAMOS_2000s",
+      "properties": {
+        "title": "PERGAMOS",
+        "village": "PERGAMOS",
+        "region": "Larnaca",
+        "location": [
+          "N"
+        ],
+        "Total": 3403,
+        "Turkish Cypriot": 3403,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.70694,
+          35.04278
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS THEODOROS_1901",
+      "properties": {
+        "title": "AGIOS THEODOROS",
+        "village": "AGIOS THEODOROS",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 776,
+        "Turkish Cypriot": 380,
+        "Greek Cypriot": 396,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38389,
+          34.79972
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS THEODOROS_1946",
+      "properties": {
+        "title": "AGIOS THEODOROS",
+        "village": "AGIOS THEODOROS",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1401,
+        "Turkish Cypriot": 701,
+        "Greek Cypriot": 700,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38389,
+          34.79972
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS THEODOROS_1960",
+      "properties": {
+        "title": "AGIOS THEODOROS",
+        "village": "AGIOS THEODOROS",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1210,
+        "Turkish Cypriot": 685,
+        "Greek Cypriot": 525,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38389,
+          34.79972
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS THEODOROS_1973",
+      "properties": {
+        "title": "AGIOS THEODOROS",
+        "village": "AGIOS THEODOROS",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 1191,
+        "Turkish Cypriot": 732,
+        "Greek Cypriot": 459,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38389,
+          34.79972
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "AGIOS THEODOROS_2000s",
+      "properties": {
+        "title": "AGIOS THEODOROS",
+        "village": "AGIOS THEODOROS",
+        "region": "Larnaca",
+        "location": [
+          "S"
+        ],
+        "Total": 599,
+        "Turkish Cypriot": 599,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38389,
+          34.79972
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      }
+    }
+  ]
+}

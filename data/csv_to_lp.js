@@ -2,7 +2,7 @@ import fs from 'fs';
 import Papa from 'papaparse';
 import convert from 'geo-coordinates-parser';
 
-const csv = fs.readFileSync('./sample_data.csv', { encoding: 'utf8', flag: 'r' });
+const csv = fs.readFileSync('./sample_data_202206.csv', { encoding: 'utf8', flag: 'r' });
 const sourceData = Papa.parse(csv, { header: true });
 
 const traces = sourceData.data.reduce((traces, record) => {
@@ -11,7 +11,7 @@ const traces = sourceData.data.reduce((traces, record) => {
 
   // Region can be 'N', 'S' or 'N/S' -> split!
   const location = record['location'].split('/');
-
+  
   const { decimalLatitude, decimalLongitude } = convert(record['geo-coordinates']);
 
   const toTrace = (when, label, audio, audioWhen) => {
@@ -75,4 +75,4 @@ const fc = {
   features: traces
 };
 
-fs.writeFileSync('sample_data.lp.json', JSON.stringify(fc, null, 2));
+fs.writeFileSync('sample_data_202206.lp.json', JSON.stringify(fc, null, 2));
