@@ -17,7 +17,7 @@ const AudioWaveform = props => {
         height:64
       });
 
-      wavesurfer.load(`/audio/${props.src}`);
+      wavesurfer.load(`audio/${props.src}`);
       setWavesurfer(wavesurfer);
     }
   }, []);
