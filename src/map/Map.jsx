@@ -64,7 +64,7 @@ const Map = React.forwardRef((props, ref) => {
   }, []);
 
   const onMouseMove = evt => {
-    if (modeState !== 'choropleth') {
+    if (!modeState.includes('choropleth')) {
       const { point } = evt;
 
       const features = mapRef.current
@@ -123,22 +123,31 @@ const Map = React.forwardRef((props, ref) => {
 
         {layerState.length > 0 && layerState.map((layer, idx) => parseLayerConfig(layer, idx))}
 
-        {modeState === 'choropleth' ? 
+        {modeState === 'choropleth regions' && 
+          <LayerChoroplethRegions 
+            index={layerState.length + 1}
+            search={search} />
+        }
+
+        {modeState === 'choropleth voronoi' && 
           <LayerChoroplethVoronoi
             index={layerState.length + 1}
-            search={search} /> : search.facetDistribution ?
-
+            search={search} />
+        }
+        
+        {modeState === 'points' && 
+          (search.facetDistribution ?
               <LayersCategorized 
                 selectedMode={modeState}
                 index={layerState.length + 1}
                 search={search} /> 
-              
               :
               
               <LayersUncategorized 
                 selectedMode={modeState}
                 index={layerState.length + 1}
                 search={search} />    
+          )
         }
 
         {selection && 

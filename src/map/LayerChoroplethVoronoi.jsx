@@ -28,14 +28,7 @@ const generateVoronoiRegions = (counts, items, outline, colors) => {
     const opacity = rel ? item._facet.stats.rel[0][1] : 1;
 
     // Voronoi geometry, intersected with the outline feature
-    console.log({
-      type: 'FeatureCollection',
-      features: [ outline, feature ]
-    });
-
     const boundedGeometry = intersect(outline, feature);
-
-    console.log(boundedGeometry);
 
     return {
       ...item,
@@ -75,6 +68,7 @@ const LayerChoroplethVoronoi = props => {
 
   return data ?
     <Source 
+      key={'choropleth-regions-' + props.index}
       type="geojson" 
       data={data}>
       <Layer 

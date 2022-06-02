@@ -14,10 +14,11 @@ const buildRegions = (counts, items, regions, colors) => {
       pointInPolygon(item.geometry.coordinates, region));
 
     if (region) {
-      if (itemsPerRegion[region.id]) {
-        itemsPerRegion[region.id].push(item);
+      const { id } = region;
+      if (itemsPerRegion[id]) {
+        itemsPerRegion[id].push(item);
       } else {
-        itemsPerRegion[region.id] = [item];
+        itemsPerRegion[id] = [item];
       }
     }
   }
@@ -94,6 +95,7 @@ const LayerChoroplethRegions = props => {
 
   return data ?
     <Source 
+      key={'choropleth-regions-' + props.index}
       type="geojson" 
       data={data}>
       <Layer 
