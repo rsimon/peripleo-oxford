@@ -57,7 +57,6 @@ const traces = sourceData.data.reduce((traces, record) => {
   if (audio) {
     audio = audio.trim();
     audioWhen = audioWhen?.replace(')', '').trim() || '2000s';
-    console.log(audio, audioWhen);
   }
 
   const nextTraces = [
