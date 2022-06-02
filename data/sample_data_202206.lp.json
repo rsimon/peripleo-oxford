@@ -392,7 +392,8 @@
         "Total": 18953,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 18953,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -404,7 +405,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E10CGMYZP01_CG_Map2_extract_anemomilo80.176829_81.395453"
+      ]
     },
     {
       "type": "Feature",
@@ -797,7 +801,8 @@
         "Total": 1140,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1140,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -809,7 +814,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E04CGFWWP01_CG_Map_extract_anemomilo121.085879_122.370238"
+      ]
     },
     {
       "type": "Feature",
@@ -932,7 +940,8 @@
         "Total": 1084,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1084,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -944,7 +953,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E05CGFYZP01_CG_Map_extract_anemomilo84.270574_86.039960"
+      ]
     },
     {
       "type": "Feature",
@@ -1476,7 +1488,8 @@
         "Total": 1052,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1052,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -1488,7 +1501,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E01CGFYZP01_CG_Map_extract_anemomilo158.244929_159.796872"
+      ]
     },
     {
       "type": "Feature",
@@ -2846,7 +2862,8 @@
         "Total": 11091,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 11091,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -2858,7 +2875,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E07CGFSBP02_CG_Map_extract_anemomilo90.181136_92.795604"
+      ]
     },
     {
       "type": "Feature",
@@ -3664,7 +3684,8 @@
         "Total": 195,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 195
+        "Arabic Cypriot": 195,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -3676,7 +3697,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "The_North_Wind_and_the_sun-Cypriot_Arabic_7.005495_to_10.071775.wav"
+      ]
     },
     {
       "type": "Feature",
@@ -4474,7 +4498,8 @@
         "Total": 4833,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 4833,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "audio": 1
       },
       "geometry": {
         "type": "Point",
@@ -4486,7 +4511,10 @@
       "when": {
         "label": "2000s",
         "year": 2000
-      }
+      },
+      "audio": [
+        "E09CGMYZP01_CG_Map_extract_anemomilo315.126416_316.548102"
+      ]
     },
     {
       "type": "Feature",
