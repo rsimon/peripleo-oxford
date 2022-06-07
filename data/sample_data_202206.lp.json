@@ -14,7 +14,8 @@
         "Total": 253,
         "Turkish Cypriot": 253,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -41,7 +42,8 @@
         "Total": 413,
         "Turkish Cypriot": 413,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -68,7 +70,8 @@
         "Total": 418,
         "Turkish Cypriot": 418,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +98,8 @@
         "Total": 529,
         "Turkish Cypriot": 529,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -122,7 +126,8 @@
         "Total": 590,
         "Turkish Cypriot": 590,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -149,7 +154,8 @@
         "Total": 130,
         "Turkish Cypriot": 38,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 92
+        "Arabic Cypriot": 92,
+        "Speaker Diversity": 0.7076923076923077
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +182,8 @@
         "Total": 324,
         "Turkish Cypriot": 37,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 287
+        "Arabic Cypriot": 287,
+        "Speaker Diversity": 0.8858024691358025
       },
       "geometry": {
         "type": "Point",
@@ -203,7 +210,8 @@
         "Total": 440,
         "Turkish Cypriot": 65,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 375
+        "Arabic Cypriot": 375,
+        "Speaker Diversity": 0.8522727272727273
       },
       "geometry": {
         "type": "Point",
@@ -230,7 +238,8 @@
         "Total": 414,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 414
+        "Arabic Cypriot": 414,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +266,8 @@
         "Total": 0,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -284,7 +294,8 @@
         "Total": 519,
         "Turkish Cypriot": 31,
         "Greek Cypriot": 488,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9402697495183044
       },
       "geometry": {
         "type": "Point",
@@ -311,7 +322,8 @@
         "Total": 2161,
         "Turkish Cypriot": 131,
         "Greek Cypriot": 1877,
-        "Arabic Cypriot": 153
+        "Arabic Cypriot": 153,
+        "Speaker Diversity": 0.8685793614067562
       },
       "geometry": {
         "type": "Point",
@@ -338,7 +350,8 @@
         "Total": 4175,
         "Turkish Cypriot": 316,
         "Greek Cypriot": 3593,
-        "Arabic Cypriot": 266
+        "Arabic Cypriot": 266,
+        "Speaker Diversity": 0.8605988023952096
       },
       "geometry": {
         "type": "Point",
@@ -365,7 +378,8 @@
         "Total": 5762,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 5730,
-        "Arabic Cypriot": 32
+        "Arabic Cypriot": 32,
+        "Speaker Diversity": 0.9944463727872267
       },
       "geometry": {
         "type": "Point",
@@ -393,6 +407,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 18953,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -423,7 +438,8 @@
         "Total": 112,
         "Turkish Cypriot": 68,
         "Greek Cypriot": 44,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6071428571428571
       },
       "geometry": {
         "type": "Point",
@@ -450,7 +466,8 @@
         "Total": 164,
         "Turkish Cypriot": 128,
         "Greek Cypriot": 36,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7804878048780488
       },
       "geometry": {
         "type": "Point",
@@ -477,7 +494,8 @@
         "Total": 197,
         "Turkish Cypriot": 172,
         "Greek Cypriot": 25,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8730964467005076
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +522,8 @@
         "Total": 0,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -531,7 +550,8 @@
         "Total": 0,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -558,7 +578,8 @@
         "Total": 242,
         "Turkish Cypriot": 60,
         "Greek Cypriot": 182,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7520661157024794
       },
       "geometry": {
         "type": "Point",
@@ -585,7 +606,8 @@
         "Total": 415,
         "Turkish Cypriot": 74,
         "Greek Cypriot": 341,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8216867469879519
       },
       "geometry": {
         "type": "Point",
@@ -612,7 +634,8 @@
         "Total": 609,
         "Turkish Cypriot": 117,
         "Greek Cypriot": 492,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8078817733990148
       },
       "geometry": {
         "type": "Point",
@@ -639,7 +662,8 @@
         "Total": 611,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 611,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -666,7 +690,8 @@
         "Total": 0,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +718,8 @@
         "Total": 238,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 238,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -720,7 +746,8 @@
         "Total": 416,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 416,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -747,7 +774,8 @@
         "Total": 546,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 546,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -774,7 +802,8 @@
         "Total": 615,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 615,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -802,6 +831,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1140,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -832,7 +862,8 @@
         "Total": 207,
         "Turkish Cypriot": 68,
         "Greek Cypriot": 139,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6714975845410628
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +890,8 @@
         "Total": 322,
         "Turkish Cypriot": 86,
         "Greek Cypriot": 236,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7329192546583851
       },
       "geometry": {
         "type": "Point",
@@ -886,7 +918,8 @@
         "Total": 355,
         "Turkish Cypriot": 90,
         "Greek Cypriot": 265,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7464788732394366
       },
       "geometry": {
         "type": "Point",
@@ -913,7 +946,8 @@
         "Total": 366,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 366,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -941,6 +975,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1084,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -971,7 +1006,8 @@
         "Total": 1109,
         "Turkish Cypriot": 120,
         "Greek Cypriot": 989,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8917944093778178
       },
       "geometry": {
         "type": "Point",
@@ -998,7 +1034,8 @@
         "Total": 1965,
         "Turkish Cypriot": 151,
         "Greek Cypriot": 1814,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9231552162849873
       },
       "geometry": {
         "type": "Point",
@@ -1025,7 +1062,8 @@
         "Total": 2609,
         "Turkish Cypriot": 206,
         "Greek Cypriot": 2403,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9210425450364124
       },
       "geometry": {
         "type": "Point",
@@ -1052,7 +1090,8 @@
         "Total": 3052,
         "Turkish Cypriot": 74,
         "Greek Cypriot": 2978,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9757536041939712
       },
       "geometry": {
         "type": "Point",
@@ -1079,7 +1118,8 @@
         "Total": 5834,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 5834,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1106,7 +1146,8 @@
         "Total": 585,
         "Turkish Cypriot": 10,
         "Greek Cypriot": 575,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9829059829059829
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1174,8 @@
         "Total": 1383,
         "Turkish Cypriot": 36,
         "Greek Cypriot": 1347,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9739696312364425
       },
       "geometry": {
         "type": "Point",
@@ -1160,7 +1202,8 @@
         "Total": 1865,
         "Turkish Cypriot": 2,
         "Greek Cypriot": 1863,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9989276139410188
       },
       "geometry": {
         "type": "Point",
@@ -1187,7 +1230,8 @@
         "Total": 2455,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 2455,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1214,7 +1258,8 @@
         "Total": 2539,
         "Turkish Cypriot": 2539,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1241,7 +1286,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1268,7 +1314,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1295,7 +1342,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1322,7 +1370,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1350,6 +1399,7 @@
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
         "Arabic Cypriot": null,
+        "Speaker Diversity": null,
         "audio": 1
       },
       "geometry": {
@@ -1380,7 +1430,8 @@
         "Total": 241,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 241,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1407,7 +1458,8 @@
         "Total": 595,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 595,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1434,7 +1486,8 @@
         "Total": 839,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 839,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1461,7 +1514,8 @@
         "Total": 987,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 987,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1489,6 +1543,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1052,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -1519,7 +1574,8 @@
         "Total": 2762,
         "Turkish Cypriot": 114,
         "Greek Cypriot": 2648,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9587255611875453
       },
       "geometry": {
         "type": "Point",
@@ -1546,7 +1602,8 @@
         "Total": 5446,
         "Turkish Cypriot": 179,
         "Greek Cypriot": 5267,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9671318398824825
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1630,8 @@
         "Total": 6603,
         "Turkish Cypriot": 123,
         "Greek Cypriot": 6480,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9813721035892776
       },
       "geometry": {
         "type": "Point",
@@ -1601,6 +1659,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 7465,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -1631,7 +1690,8 @@
         "Total": 12391,
         "Turkish Cypriot": 12391,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -1658,7 +1718,8 @@
         "Total": 14481,
         "Turkish Cypriot": 5992,
         "Greek Cypriot": 8489,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.586216421517851
       },
       "geometry": {
         "type": "Point",
@@ -1685,7 +1746,8 @@
         "Total": 34485,
         "Turkish Cypriot": 10330,
         "Greek Cypriot": 20768,
-        "Arabic Cypriot": 3387
+        "Arabic Cypriot": 3387,
+        "Speaker Diversity": 0.6022328548644338
       },
       "geometry": {
         "type": "Point",
@@ -1712,7 +1774,8 @@
         "Total": 45629,
         "Turkish Cypriot": 14686,
         "Greek Cypriot": 27645,
-        "Arabic Cypriot": 3298
+        "Arabic Cypriot": 3298,
+        "Speaker Diversity": 0.6058646913147341
       },
       "geometry": {
         "type": "Point",
@@ -1739,7 +1802,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1767,6 +1831,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 55104,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -1797,7 +1862,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1824,7 +1890,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1851,7 +1918,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1878,7 +1946,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -1906,6 +1975,7 @@
         "Turkish Cypriot": 61378,
         "Greek Cypriot": 0,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -1936,7 +2006,8 @@
         "Total": 8298,
         "Turkish Cypriot": 1937,
         "Greek Cypriot": 6361,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7665702578934683
       },
       "geometry": {
         "type": "Point",
@@ -1963,7 +2034,8 @@
         "Total": 22074,
         "Turkish Cypriot": 3444,
         "Greek Cypriot": 18630,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8439793422125578
       },
       "geometry": {
         "type": "Point",
@@ -1990,7 +2062,8 @@
         "Total": null,
         "Turkish Cypriot": 6115,
         "Greek Cypriot": 31263,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2017,7 +2090,8 @@
         "Total": null,
         "Turkish Cypriot": 8000,
         "Greek Cypriot": 34206,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2044,7 +2118,8 @@
         "Total": 94250,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 94250,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2071,7 +2146,8 @@
         "Total": 892,
         "Turkish Cypriot": 547,
         "Greek Cypriot": 345,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6132286995515696
       },
       "geometry": {
         "type": "Point",
@@ -2098,7 +2174,8 @@
         "Total": 1231,
         "Turkish Cypriot": 659,
         "Greek Cypriot": 572,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5353371242891958
       },
       "geometry": {
         "type": "Point",
@@ -2125,7 +2202,8 @@
         "Total": 1961,
         "Turkish Cypriot": 1144,
         "Greek Cypriot": 817,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5833758286588475
       },
       "geometry": {
         "type": "Point",
@@ -2152,7 +2230,8 @@
         "Total": 2440,
         "Turkish Cypriot": 1596,
         "Greek Cypriot": 844,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6540983606557377
       },
       "geometry": {
         "type": "Point",
@@ -2179,7 +2258,8 @@
         "Total": 3076,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 3076,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2206,7 +2286,8 @@
         "Total": 3134,
         "Turkish Cypriot": 1564,
         "Greek Cypriot": 1570,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5009572431397575
       },
       "geometry": {
         "type": "Point",
@@ -2233,7 +2314,8 @@
         "Total": 5764,
         "Turkish Cypriot": 2147,
         "Greek Cypriot": 3617,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6275156141568355
       },
       "geometry": {
         "type": "Point",
@@ -2260,7 +2342,8 @@
         "Total": 9083,
         "Turkish Cypriot": 2851,
         "Greek Cypriot": 6232,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6861169217218981
       },
       "geometry": {
         "type": "Point",
@@ -2288,6 +2371,7 @@
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
         "Arabic Cypriot": null,
+        "Speaker Diversity": null,
         "audio": 1
       },
       "geometry": {
@@ -2318,7 +2402,8 @@
         "Total": 26530,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 26530,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2345,7 +2430,8 @@
         "Total": 688,
         "Turkish Cypriot": 119,
         "Greek Cypriot": 569,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8270348837209303
       },
       "geometry": {
         "type": "Point",
@@ -2372,7 +2458,8 @@
         "Total": 1372,
         "Turkish Cypriot": 147,
         "Greek Cypriot": 1225,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8928571428571429
       },
       "geometry": {
         "type": "Point",
@@ -2399,7 +2486,8 @@
         "Total": 1722,
         "Turkish Cypriot": 170,
         "Greek Cypriot": 1552,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9012775842044135
       },
       "geometry": {
         "type": "Point",
@@ -2426,7 +2514,8 @@
         "Total": 2021,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 2021,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2453,7 +2542,8 @@
         "Total": 5509,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 5509,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2480,7 +2570,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2507,7 +2598,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2534,7 +2626,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2561,7 +2654,8 @@
         "Total": null,
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -2589,6 +2683,7 @@
         "Turkish Cypriot": null,
         "Greek Cypriot": null,
         "Arabic Cypriot": null,
+        "Speaker Diversity": null,
         "audio": 1
       },
       "geometry": {
@@ -2619,7 +2714,8 @@
         "Total": 600,
         "Turkish Cypriot": 256,
         "Greek Cypriot": 344,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5733333333333334
       },
       "geometry": {
         "type": "Point",
@@ -2646,7 +2742,8 @@
         "Total": 1198,
         "Turkish Cypriot": 427,
         "Greek Cypriot": 771,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6435726210350584
       },
       "geometry": {
         "type": "Point",
@@ -2673,7 +2770,8 @@
         "Total": 1627,
         "Turkish Cypriot": 664,
         "Greek Cypriot": 963,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5918869084204057
       },
       "geometry": {
         "type": "Point",
@@ -2700,7 +2798,8 @@
         "Total": 1461,
         "Turkish Cypriot": 714,
         "Greek Cypriot": 747,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5112936344969199
       },
       "geometry": {
         "type": "Point",
@@ -2727,7 +2826,8 @@
         "Total": 1262,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1262,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2754,7 +2854,8 @@
         "Total": 1053,
         "Turkish Cypriot": 1,
         "Greek Cypriot": 1052,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9990503323836657
       },
       "geometry": {
         "type": "Point",
@@ -2781,7 +2882,8 @@
         "Total": 2720,
         "Turkish Cypriot": 4,
         "Greek Cypriot": 2716,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9985294117647059
       },
       "geometry": {
         "type": "Point",
@@ -2808,7 +2910,8 @@
         "Total": 3477,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 3477,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2835,7 +2938,8 @@
         "Total": 4618,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 4618,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -2863,6 +2967,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 11091,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -2893,7 +2998,8 @@
         "Total": 2299,
         "Turkish Cypriot": 16,
         "Greek Cypriot": 2283,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9930404523705959
       },
       "geometry": {
         "type": "Point",
@@ -2920,7 +3026,8 @@
         "Total": 4063,
         "Turkish Cypriot": 11,
         "Greek Cypriot": 4052,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9972926409057347
       },
       "geometry": {
         "type": "Point",
@@ -2947,7 +3054,8 @@
         "Total": 3153,
         "Turkish Cypriot": 2,
         "Greek Cypriot": 3151,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9993656834760546
       },
       "geometry": {
         "type": "Point",
@@ -2975,6 +3083,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 2626,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -3005,7 +3114,8 @@
         "Total": 1935,
         "Turkish Cypriot": 1935,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3032,7 +3142,8 @@
         "Total": 1262,
         "Turkish Cypriot": 15,
         "Greek Cypriot": 1247,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9881141045958796
       },
       "geometry": {
         "type": "Point",
@@ -3059,7 +3170,8 @@
         "Total": 2087,
         "Turkish Cypriot": 6,
         "Greek Cypriot": 2081,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9971250598945856
       },
       "geometry": {
         "type": "Point",
@@ -3086,7 +3198,8 @@
         "Total": 2195,
         "Turkish Cypriot": 7,
         "Greek Cypriot": 2188,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9968109339407745
       },
       "geometry": {
         "type": "Point",
@@ -3113,7 +3226,8 @@
         "Total": 2323,
         "Turkish Cypriot": 2323,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3140,7 +3254,8 @@
         "Total": 3657,
         "Turkish Cypriot": 3657,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3167,7 +3282,8 @@
         "Total": 1403,
         "Turkish Cypriot": 51,
         "Greek Cypriot": 1352,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9636493228795439
       },
       "geometry": {
         "type": "Point",
@@ -3194,7 +3310,8 @@
         "Total": 1790,
         "Turkish Cypriot": 8,
         "Greek Cypriot": 1782,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9955307262569832
       },
       "geometry": {
         "type": "Point",
@@ -3221,7 +3338,8 @@
         "Total": 1507,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1507,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3248,7 +3366,8 @@
         "Total": 1294,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1294,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3275,7 +3394,8 @@
         "Total": 1160,
         "Turkish Cypriot": 1160,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3302,7 +3422,8 @@
         "Total": 1831,
         "Turkish Cypriot": 118,
         "Greek Cypriot": 1713,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9355543418896778
       },
       "geometry": {
         "type": "Point",
@@ -3329,7 +3450,8 @@
         "Total": 2596,
         "Turkish Cypriot": 126,
         "Greek Cypriot": 2470,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9514637904468413
       },
       "geometry": {
         "type": "Point",
@@ -3356,7 +3478,8 @@
         "Total": 2358,
         "Turkish Cypriot": 3,
         "Greek Cypriot": 2355,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9987277353689568
       },
       "geometry": {
         "type": "Point",
@@ -3383,7 +3506,8 @@
         "Total": 2116,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 2116,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3410,7 +3534,8 @@
         "Total": 1309,
         "Turkish Cypriot": 1309,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3437,7 +3562,8 @@
         "Total": 1336,
         "Turkish Cypriot": 487,
         "Greek Cypriot": 849,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6354790419161677
       },
       "geometry": {
         "type": "Point",
@@ -3464,7 +3590,8 @@
         "Total": 2776,
         "Turkish Cypriot": 572,
         "Greek Cypriot": 2204,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7939481268011528
       },
       "geometry": {
         "type": "Point",
@@ -3491,7 +3618,8 @@
         "Total": 3069,
         "Turkish Cypriot": 696,
         "Greek Cypriot": 2373,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7732160312805474
       },
       "geometry": {
         "type": "Point",
@@ -3519,6 +3647,7 @@
         "Turkish Cypriot": 1000,
         "Greek Cypriot": 2635,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7248968363136176,
         "audio": 1
       },
       "geometry": {
@@ -3549,7 +3678,8 @@
         "Total": 23839,
         "Turkish Cypriot": 23839,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3576,7 +3706,8 @@
         "Total": 513,
         "Turkish Cypriot": 10,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 503
+        "Arabic Cypriot": 503,
+        "Speaker Diversity": 0.9805068226120858
       },
       "geometry": {
         "type": "Point",
@@ -3603,7 +3734,8 @@
         "Total": 894,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 5,
-        "Arabic Cypriot": 889
+        "Arabic Cypriot": 889,
+        "Speaker Diversity": 0.9944071588366891
       },
       "geometry": {
         "type": "Point",
@@ -3630,7 +3762,8 @@
         "Total": 1111,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 18,
-        "Arabic Cypriot": 1093
+        "Arabic Cypriot": 1093,
+        "Speaker Diversity": 0.9837983798379838
       },
       "geometry": {
         "type": "Point",
@@ -3657,7 +3790,8 @@
         "Total": 1257,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 1257
+        "Arabic Cypriot": 1257,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3685,6 +3819,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
         "Arabic Cypriot": 195,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -3715,7 +3850,8 @@
         "Total": 240,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 240
+        "Arabic Cypriot": 240,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3742,7 +3878,8 @@
         "Total": 417,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 5,
-        "Arabic Cypriot": 412
+        "Arabic Cypriot": 412,
+        "Speaker Diversity": 0.988009592326139
       },
       "geometry": {
         "type": "Point",
@@ -3769,7 +3906,8 @@
         "Total": 506,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 9,
-        "Arabic Cypriot": 497
+        "Arabic Cypriot": 497,
+        "Speaker Diversity": 0.9822134387351779
       },
       "geometry": {
         "type": "Point",
@@ -3796,7 +3934,8 @@
         "Total": 527,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 527
+        "Arabic Cypriot": 527,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3823,7 +3962,8 @@
         "Total": 82,
         "Turkish Cypriot": 82,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3850,7 +3990,8 @@
         "Total": 67,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 67,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3877,7 +4018,8 @@
         "Total": 183,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 4,
-        "Arabic Cypriot": 179
+        "Arabic Cypriot": 179,
+        "Speaker Diversity": 0.9781420765027322
       },
       "geometry": {
         "type": "Point",
@@ -3904,7 +4046,8 @@
         "Total": 193,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 3,
-        "Arabic Cypriot": 190
+        "Arabic Cypriot": 190,
+        "Speaker Diversity": 0.9844559585492227
       },
       "geometry": {
         "type": "Point",
@@ -3931,7 +4074,8 @@
         "Total": 245,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 245
+        "Arabic Cypriot": 245,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3958,7 +4102,8 @@
         "Total": 89,
         "Turkish Cypriot": 89,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -3985,7 +4130,8 @@
         "Total": 2714,
         "Turkish Cypriot": 269,
         "Greek Cypriot": 2445,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9008843036109064
       },
       "geometry": {
         "type": "Point",
@@ -4012,7 +4158,8 @@
         "Total": 3309,
         "Turkish Cypriot": 312,
         "Greek Cypriot": 2997,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9057116953762466
       },
       "geometry": {
         "type": "Point",
@@ -4039,7 +4186,8 @@
         "Total": 3494,
         "Turkish Cypriot": 370,
         "Greek Cypriot": 3124,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8941041785918717
       },
       "geometry": {
         "type": "Point",
@@ -4066,7 +4214,8 @@
         "Total": 3196,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 3196,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4093,7 +4242,8 @@
         "Total": 5658,
         "Turkish Cypriot": 5658,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4120,7 +4270,8 @@
         "Total": 7964,
         "Turkish Cypriot": 2004,
         "Greek Cypriot": 5960,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.7483676544450025
       },
       "geometry": {
         "type": "Point",
@@ -4147,7 +4298,8 @@
         "Total": null,
         "Turkish Cypriot": 2928,
         "Greek Cypriot": 10605,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -4174,7 +4326,8 @@
         "Total": null,
         "Turkish Cypriot": 4058,
         "Greek Cypriot": 13101,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -4201,7 +4354,8 @@
         "Total": null,
         "Turkish Cypriot": 4000,
         "Greek Cypriot": 14914,
-        "Arabic Cypriot": null
+        "Arabic Cypriot": null,
+        "Speaker Diversity": null
       },
       "geometry": {
         "type": "Point",
@@ -4228,7 +4382,8 @@
         "Total": 46666,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 46666,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4255,7 +4410,8 @@
         "Total": 2325,
         "Turkish Cypriot": 270,
         "Greek Cypriot": 2055,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8838709677419355
       },
       "geometry": {
         "type": "Point",
@@ -4282,7 +4438,8 @@
         "Total": 3003,
         "Turkish Cypriot": 473,
         "Greek Cypriot": 2530,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8424908424908425
       },
       "geometry": {
         "type": "Point",
@@ -4309,7 +4466,8 @@
         "Total": 2075,
         "Turkish Cypriot": 361,
         "Greek Cypriot": 1714,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.8260240963855422
       },
       "geometry": {
         "type": "Point",
@@ -4336,7 +4494,8 @@
         "Total": 1361,
         "Turkish Cypriot": 31,
         "Greek Cypriot": 1330,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9772226304188097
       },
       "geometry": {
         "type": "Point",
@@ -4363,7 +4522,8 @@
         "Total": 1039,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1039,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4390,7 +4550,8 @@
         "Total": 517,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 517,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4417,7 +4578,8 @@
         "Total": 1080,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1080,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4444,7 +4606,8 @@
         "Total": 1329,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1329,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4471,7 +4634,8 @@
         "Total": 1301,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 1301,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4499,6 +4663,7 @@
         "Turkish Cypriot": 0,
         "Greek Cypriot": 4833,
         "Arabic Cypriot": 0,
+        "Speaker Diversity": 1,
         "audio": 1
       },
       "geometry": {
@@ -4529,7 +4694,8 @@
         "Total": 133,
         "Turkish Cypriot": 120,
         "Greek Cypriot": 13,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.9022556390977443
       },
       "geometry": {
         "type": "Point",
@@ -4556,7 +4722,8 @@
         "Total": 452,
         "Turkish Cypriot": 452,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4583,7 +4750,8 @@
         "Total": 826,
         "Turkish Cypriot": 826,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4610,7 +4778,8 @@
         "Total": 1190,
         "Turkish Cypriot": 1190,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4637,7 +4806,8 @@
         "Total": 3403,
         "Turkish Cypriot": 3403,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",
@@ -4664,7 +4834,8 @@
         "Total": 776,
         "Turkish Cypriot": 380,
         "Greek Cypriot": 396,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5103092783505154
       },
       "geometry": {
         "type": "Point",
@@ -4691,7 +4862,8 @@
         "Total": 1401,
         "Turkish Cypriot": 701,
         "Greek Cypriot": 700,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5003568879371877
       },
       "geometry": {
         "type": "Point",
@@ -4718,7 +4890,8 @@
         "Total": 1210,
         "Turkish Cypriot": 685,
         "Greek Cypriot": 525,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.5661157024793388
       },
       "geometry": {
         "type": "Point",
@@ -4745,7 +4918,8 @@
         "Total": 1191,
         "Turkish Cypriot": 732,
         "Greek Cypriot": 459,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 0.6146095717884131
       },
       "geometry": {
         "type": "Point",
@@ -4772,7 +4946,8 @@
         "Total": 599,
         "Turkish Cypriot": 599,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": 1
       },
       "geometry": {
         "type": "Point",

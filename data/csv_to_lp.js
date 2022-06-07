@@ -30,7 +30,8 @@ const traces = sourceData.data.reduce((traces, record) => {
         Total: tc + gc + ac,
         'Turkish Cypriot': tc,
         'Greek Cypriot': gc,
-        'Arabic Cypriot': ac
+        'Arabic Cypriot': ac,
+        'Speaker Diversity': Math.max(tc, gc, ac) / (tc + gc + ac)
       },
       geometry: {
         type: 'Point',
