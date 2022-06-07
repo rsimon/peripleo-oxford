@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useState } from 'react';
 
 import { Facet } from './Facets';
 import MetricFacet from './MetricFacet';
@@ -29,7 +29,7 @@ export const FacetsContextProvider = props => {
         // Built-in facet
         return DEFAULT_FACETS.find(f => f.name === definition);
       } else if (definition.type?.startsWith('metric')) {
-        return new MetricFacet(definition.name, definition.type, definition.properties, definition.colors);
+        return MetricFacet.create(definition);
       } else if (definition.name && definition.path) {
         return new Facet(definition.name, definition.path, definition.condition, definition.excludeFromMenu, definition.filterOnStart);
       }

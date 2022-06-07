@@ -1,4 +1,5 @@
-import MetricFacet from "./MetricFacet";
+import SumFacet from "./metric/SumFacet";
+import RangeFacet from './metric/RangeFacet';
 
 export class Facet {
 
@@ -103,8 +104,7 @@ const computeNestedFieldFacet = (items, facet, postFilter) => {
 export const computeFacetDistribution = (items, facet, postFilter) => {
   const { definition } = facet;
 
-  // Temporary hack!
-  if (facet instanceof MetricFacet) {
+  if (facet.type?.startsWith('metric')) {
     return facet.computeFacetDistribution(items, postFilter);
   } else if (Array.isArray(definition)) {
     return computeNestedFieldFacet(items, facet, postFilter);
