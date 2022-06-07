@@ -15,9 +15,14 @@ const traces = sourceData.data.reduce((traces, record) => {
   const { decimalLatitude, decimalLongitude } = convert(record['geo-coordinates']);
 
   const toTrace = (when, label, audio, audioWhen) => {
-    const tc = parseInt(record[`${label} TC`]);
-    const gc = parseInt(record[`${label} GC`]);
-    const ac = parseInt(record[`${label} AC`]);
+    const tc = parseInt(record[`${label} TC`]) || 0;
+    const gc = parseInt(record[`${label} GC`]) || 0;
+    const ac = parseInt(record[`${label} AC`]) || 0;
+
+    const total = tc + gc + ac;
+    const max = Math.max(tc, gc, ac);
+
+    const homogeneity = (max / total);
 
     const trace = {
       type: 'Feature',
@@ -27,11 +32,11 @@ const traces = sourceData.data.reduce((traces, record) => {
         village,
         region,
         location,
-        Total: tc + gc + ac,
+        Total: total,
         'Turkish Cypriot': tc,
         'Greek Cypriot': gc,
         'Arabic Cypriot': ac,
-        'Speaker Diversity': Math.max(tc, gc, ac) / (tc + gc + ac)
+        'Speaker Diversity': 1 - homogeneity
       },
       geometry: {
         type: 'Point',
