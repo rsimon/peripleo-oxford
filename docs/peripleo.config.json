@@ -37,6 +37,19 @@
         "Arabic Cypriot": "#008f18"
       },
       "activeOnStart": true
+    }, {
+      "name": "speaker_diversity",
+      "type": "metric.range",
+      "property": "Speaker Diversity",
+      "buckets": [
+        [0.0, 0.1],
+        [0.1, 0.2],
+        [0.2, 0.3],
+        [0.3, 0.4],
+        [0.4, 0.5],
+        [0.5, 0.6],
+        [0.7, 1.0]
+      ]
     },
     { "name": "region",   "type": "category", "path": [ "properties", "region" ] },
     { "name": "location", "type": "category", "path": [ "properties", "location" ] }
