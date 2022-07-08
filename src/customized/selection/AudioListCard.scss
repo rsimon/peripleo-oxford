@@ -15,8 +15,18 @@
 
     }
 
-    .p6o-audio-waveform {
+    .p6o-audio-visualization {
       flex:1;
+      position:relative;
+
+      .p6o-audio-waveform {
+        height:64px;
+      }
+
+      .p6o-audio-spectrogram {
+        height:256px;
+      }
+
     }
 
   }

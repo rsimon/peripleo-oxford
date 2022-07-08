@@ -16,6 +16,12 @@ object-assign
  * @license BSD-3-Clause
  */
 
+/*!
+ * wavesurfer.js spectrogram plugin 6.1.0 (2022-03-31)
+ * https://wavesurfer-js.org
+ * @license BSD-3-Clause
+ */
+
 /*! ./absMax */
 
 /*! ./clamp */
@@ -27,6 +33,8 @@ object-assign
 /*! ./drawer.multicanvas */
 
 /*! ./fetch */
+
+/*! ./fft */
 
 /*! ./frame */
 
@@ -148,9 +156,17 @@ object-assign
   !*** ./src/mediaelement-webaudio.js ***!
   \**************************************/
 
+/*!***************************************!*\
+  !*** ./src/plugin/spectrogram/fft.js ***!
+  \***************************************/
+
 /*!****************************************!*\
   !*** ./node_modules/debounce/index.js ***!
   \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/plugin/spectrogram/index.js ***!
+  \*****************************************/
 
 /*!*********************************************!*\
   !*** ./src/util/request-animation-frame.js ***!
