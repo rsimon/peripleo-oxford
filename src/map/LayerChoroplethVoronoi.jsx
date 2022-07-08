@@ -18,14 +18,23 @@ const generateVoronoiRegions = (counts, items, outline, colors) => {
 
   const voronoiRegions = voronoi(points, options).features.map((feature, idx) => {
     const item = items[idx];
+    
+    let color = null; 
+    let opacity = 1;
 
-    const rel = item._facet.stats?.rel.length > 0 ? item._facet.stats.rel : null;
+    if (item._facet.stats?.rel.length > 0) {
+      const { rel } = item._facet.stats;
 
-    const color = rel ?
-      (colors ?
-        colors[rel[0][0]] : SIGNATURE_COLOR[currentFacets.indexOf(rel[0][0])]) : '#a2a2a2';
+      color = colors ?
+        colors[rel[0][0]] : SIGNATURE_COLOR[currentFacets.indexOf(rel[0][0])];
+        
+      opacity = rel[0][1];
+    } else if (item._facet.values?.length > 0) {
+      const topValue = item._facet.values[0];
 
-    const opacity = rel ? item._facet.stats.rel[0][1] : 1;
+      color = colors ? 
+        colors[topValue] : SIGNATURE_COLOR[currentFacets.indexOf(topValue)];
+    }
 
     // Voronoi geometry, intersected with the outline feature
     const boundedGeometry = intersect(outline, feature);

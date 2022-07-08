@@ -37,9 +37,21 @@ const buildRegions = (counts, items, regions, colors) => {
             agg[label] = count;
           }
         }
-      } 
-      
-      return agg;
+
+        return agg;
+      } else if (item._facet.values?.length > 0) {
+        const { values } = item._facet;
+
+        for (const val of values) {
+          if (agg[val]) {
+            agg[val] += 1;
+          } else {
+            agg[val] = 1;
+          }
+        }
+
+        return agg;
+      }
     }, {});
 
     const sorted = Object.entries(abs);

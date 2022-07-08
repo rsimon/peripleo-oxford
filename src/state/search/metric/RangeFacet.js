@@ -6,8 +6,6 @@ export default class RangeFacet {
     this.property = property;
     this.buckets = buckets;
     this.colors = colors;
-
-    console.log('colors', colors);
   } 
 
   computeFacetDistribution = (items, postFilter) => {
