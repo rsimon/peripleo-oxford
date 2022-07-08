@@ -22,19 +22,23 @@ const MeasureDistance = props => {
   const onMouseUp = evt => {
     const { clientX, clientY } = evt;
 
-    const point = ({lng, lat}) => ({
-      type: 'Point',
-      coordinates: [lng, lat]
-    });
+    const point = ({lng, lat}) => [lng, lat];
 
-    const fromCoord = point(props.map.unproject([from.x, from.y]));
-    const toCoord = point(props.map.unproject([clientX, clientY]));
+    const f = point(props.map.unproject([from.x, from.y]));
+    const t = point(props.map.unproject([clientX, clientY]));
 
-    const d = distance(fromCoord, toCoord);
+    const d = distance(f, t);
 
-    alert(`Distance: ${d.toFixed(2)} km`);
+    // Bonus feature: compute elevation difference via open-elevation.com
+    fetch(`https://api.open-elevation.com/api/v1/lookup?locations=${f[1]},${f[0]}|${t[1]},${t[0]}`)
+      .then(res => res.json())
+      .then(data => {
+        const diff = data.results[1].elevation - data.results[0].elevation;
+        
+        alert(`Distance: ${d.toFixed(2)} km\nElevation difference: ${diff} m`);
 
-    props.onClose();
+        props.onClose();    
+      });
   }
 
   return ReactDOM.createPortal(
