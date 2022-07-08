@@ -17,6 +17,8 @@ import SelectionPreview from './selection/SelectionPreview';
 import LayerChoroplethRegions from './LayerChoroplethRegions';
 import LayerChoroplethVoronoi from './LayerChoroplethVoronoi';
 
+import MeasureDistance from './tools/MeasureDistance';
+
 const Map = React.forwardRef((props, ref) => {
 
   const { config } = props;
@@ -36,6 +38,8 @@ const Map = React.forwardRef((props, ref) => {
   const [ hover, setHover ] = useState();
 
   const [ selection, setSelection ] = useState();
+
+  const [ currentTool, setCurrentTool ] = useState();
 
   const style = `https://api.maptiler.com/maps/outdoor/style.json?key=${config.api_key}`;
 
@@ -166,11 +170,18 @@ const Map = React.forwardRef((props, ref) => {
         onZoomOut={onZoom(-1)} 
         onToggleFullscreen={props.onToggleFullscreen}
         selectedLayers={layerState}
-        onChangeLayers={setLayerState} />
+        onChangeLayers={setLayerState} 
+        onMeasureDistance={() => setCurrentTool(
+          <MeasureDistance 
+            map={mapRef.current}
+            onClose={() => setCurrentTool(null)} /> 
+        )} />
 
       {props.children}
 
       {hover && <HoverBubble config={config} {...hover} />}
+
+      {currentTool}
     </div>
   )
 

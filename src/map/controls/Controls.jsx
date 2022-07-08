@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { FiMap } from 'react-icons/fi';
 import { AnimatePresence } from 'framer-motion';
 import { 
@@ -8,6 +8,7 @@ import {
   AiOutlineMinus 
 } from 'react-icons/ai';
 import { BsLayers } from 'react-icons/bs';
+import { RiRulerLine } from 'react-icons/ri';
 
 import useClickOutside from './useClickoutside';
 import MapModesDropdown from './MapModesDropdown';
@@ -89,6 +90,16 @@ const Controls = props => {
             <MapModesDropdown />
           }
         </AnimatePresence>
+      </div>
+
+      <div className="p6o-measure-distance">
+        <button
+          className="p6o-controls-btn p6o-hud-button"
+          tabIndex={34}
+          aria-label="Measure distance"
+          onClick={props.onMeasureDistance}>
+          <RiRulerLine />
+        </button>
       </div>
     </div>
   )

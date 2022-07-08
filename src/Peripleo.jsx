@@ -2,9 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import useSearch from './state/search/useSearch'
 
-// import HUD from './hud/HUD';
 import Map from './map/Map';
-
 import HUD from './customized/HUD';
 
 /**
