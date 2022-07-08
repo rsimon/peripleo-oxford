@@ -10,7 +10,6 @@ export default class SumFacet {
     this.name = name;
     this.type = type;
     this.properties = new Set(properties);
-
     this.colors = colors;
   } 
 

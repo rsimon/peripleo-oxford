@@ -1,10 +1,13 @@
 export default class RangeFacet {
 
-  constructor(name, type, property, buckets) {
+  constructor(name, type, property, buckets, colors) {
     this.name = name;
     this.type = type;
     this.property = property;
     this.buckets = buckets;
+    this.colors = colors;
+
+    console.log('colors', colors);
   } 
 
   computeFacetDistribution = (items, postFilter) => {
