@@ -7,13 +7,14 @@ const Welcome = props => {
     <div className="p6o-welcome-wrapper">
       <div className="p6o-welcome">
         <h1>
-          Locating a National Collection
+          Atlas of Prosodic Convergence
         </h1>
 
         <p>
-          Welcome to the visualization prototype for the 
-          Locating a National Collection project. 
-          To learn more, take the tour.
+          This is a concept prototype for the planned 
+          <strong>Atlas of Prosodic Convergence</strong>. 
+          To learn more about the user interface 
+          functionality, take the tour.
         </p>
         
         <div className="p6o-welcome-buttons">
