@@ -34,7 +34,13 @@ const Tutorial = props => {
       }
 
       {showTour &&
-        <Joyride steps={tour} />
+        <Joyride
+          continuous
+          showProgress
+          hideCloseButton
+          disableScrollParentFix
+          disableScrolling
+          steps={tour} /> 
       }
     </>
   )

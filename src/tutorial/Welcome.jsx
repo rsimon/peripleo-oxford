@@ -11,10 +11,8 @@ const Welcome = props => {
         </h1>
 
         <p>
-          This is a concept prototype for the planned 
-          <strong>Atlas of Prosodic Convergence</strong>. 
-          To learn more about the user interface 
-          functionality, take the tour.
+          This is a concept prototype for the planned <strong>Atlas of Prosodic Convergence</strong>. 
+          To learn more about how the user interface works, take the tour.
         </p>
         
         <div className="p6o-welcome-buttons">

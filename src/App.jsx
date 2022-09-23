@@ -133,7 +133,7 @@ const App = () => {
           onMapLoaded={onMapLoaded} />
       }
 
-      {isFirstTimeVisitor && loadState.stage === 'CLOSE' &&
+      {loadState.stage === 'CLOSE' &&
         <Tutorial />
       }
     </>

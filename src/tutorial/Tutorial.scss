@@ -66,3 +66,28 @@
   }
 
 }
+
+.react-joyride__tooltip {
+
+  a {
+    color:#c61327 !important;  
+  }
+
+  button[data-action="primary"] {
+    background-color:$bl-red !important;
+    border-radius: 4px !important;
+  }
+
+  button[data-action="primary"]:hover {
+    background-color:$bl-red-hover !important;
+  }
+
+  button[data-action="back"] {
+    color:$bl-red !important;
+  }
+
+}
+
+.__floater {
+  transition:none !important;
+}
