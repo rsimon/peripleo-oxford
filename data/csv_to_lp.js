@@ -92,4 +92,4 @@ const fc = {
   features: traces
 };
 
-fs.writeFileSync('sample_data_202206.lp.json', JSON.stringify(fc, null, 2));
+fs.writeFileSync('sample_data_202209.lp.json', JSON.stringify(fc, null, 2));
