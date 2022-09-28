@@ -4960,6 +4960,440 @@
         "label": "2000s",
         "year": 2000
       }
+    },
+    {
+      "type": "Feature",
+      "@id": "ATHENS_1901",
+      "properties": {
+        "title": "ATHENS",
+        "village": "ATHENS",
+        "region": "Greece",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72806,
+          37.98417
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ATHENS_1946",
+      "properties": {
+        "title": "ATHENS",
+        "village": "ATHENS",
+        "region": "Greece",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72806,
+          37.98417
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ATHENS_1960",
+      "properties": {
+        "title": "ATHENS",
+        "village": "ATHENS",
+        "region": "Greece",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72806,
+          37.98417
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ATHENS_1973",
+      "properties": {
+        "title": "ATHENS",
+        "village": "ATHENS",
+        "region": "Greece",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72806,
+          37.98417
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ATHENS_2000s",
+      "properties": {
+        "title": "ATHENS",
+        "village": "ATHENS",
+        "region": "Greece",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72806,
+          37.98417
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "liza_toskase_c42.wav | Male_67_2_conversational_Athens_d11.wav",
+        "liza_toskase_c42.wav | Male_67_2_conversational_Athens_d11.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "DAMASCUS_1901",
+      "properties": {
+        "title": "DAMASCUS",
+        "village": "DAMASCUS",
+        "region": "Syria",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29194,
+          33.51306
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DAMASCUS_1946",
+      "properties": {
+        "title": "DAMASCUS",
+        "village": "DAMASCUS",
+        "region": "Syria",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29194,
+          33.51306
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DAMASCUS_1960",
+      "properties": {
+        "title": "DAMASCUS",
+        "village": "DAMASCUS",
+        "region": "Syria",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29194,
+          33.51306
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DAMASCUS_1973",
+      "properties": {
+        "title": "DAMASCUS",
+        "village": "DAMASCUS",
+        "region": "Syria",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29194,
+          33.51306
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "DAMASCUS_2000s",
+      "properties": {
+        "title": "DAMASCUS",
+        "village": "DAMASCUS",
+        "region": "Syria",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29194,
+          33.51306
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "1960_unknown_Safiye_Ayla_radio_c27.wav | Aşk_Tadında_cont_rise_8_07_extract.wav",
+        "1960_unknown_Safiye_Ayla_radio_c27.wav | Aşk_Tadında_cont_rise_8_07_extract.wav"
+      ]
+    },
+    {
+      "type": "Feature",
+      "@id": "ISTANBUL_1901",
+      "properties": {
+        "title": "ISTANBUL",
+        "village": "ISTANBUL",
+        "region": "Turkey",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.01361
+        ]
+      },
+      "when": {
+        "label": "1901",
+        "year": 1901
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ISTANBUL_1946",
+      "properties": {
+        "title": "ISTANBUL",
+        "village": "ISTANBUL",
+        "region": "Turkey",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.01361
+        ]
+      },
+      "when": {
+        "label": "1946",
+        "year": 1946
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ISTANBUL_1960",
+      "properties": {
+        "title": "ISTANBUL",
+        "village": "ISTANBUL",
+        "region": "Turkey",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.01361
+        ]
+      },
+      "when": {
+        "label": "1960",
+        "year": 1960
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ISTANBUL_1973",
+      "properties": {
+        "title": "ISTANBUL",
+        "village": "ISTANBUL",
+        "region": "Turkey",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.01361
+        ]
+      },
+      "when": {
+        "label": "1973",
+        "year": 1973
+      }
+    },
+    {
+      "type": "Feature",
+      "@id": "ISTANBUL_2000s",
+      "properties": {
+        "title": "ISTANBUL",
+        "village": "ISTANBUL",
+        "region": "Turkey",
+        "location": [
+          "International"
+        ],
+        "Total": 0,
+        "Turkish Cypriot": 0,
+        "Greek Cypriot": 0,
+        "Arabic Cypriot": 0,
+        "Speaker Diversity": null,
+        "audio": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.01361
+        ]
+      },
+      "when": {
+        "label": "2000s",
+        "year": 2000
+      },
+      "audio": [
+        "syda-mp2-m5m6_ch1_40.695612_to_43.577614.wav"
+      ]
     }
   ]
 }
