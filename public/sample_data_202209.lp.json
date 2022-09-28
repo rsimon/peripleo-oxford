@@ -5083,11 +5083,11 @@
         "location": [
           "International"
         ],
-        "Total": 0,
+        "Total": 2,
         "Turkish Cypriot": 0,
-        "Greek Cypriot": 0,
+        "Greek Cypriot": 2,
         "Arabic Cypriot": 0,
-        "Speaker Diversity": null,
+        "Speaker Diversity": 0,
         "audio": 1
       },
       "geometry": {
@@ -5228,11 +5228,11 @@
         "location": [
           "International"
         ],
-        "Total": 0,
+        "Total": 2,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 0,
-        "Speaker Diversity": null,
+        "Arabic Cypriot": 2,
+        "Speaker Diversity": 0,
         "audio": 1
       },
       "geometry": {
@@ -5289,11 +5289,11 @@
         "location": [
           "International"
         ],
-        "Total": 0,
-        "Turkish Cypriot": 0,
+        "Total": 1,
+        "Turkish Cypriot": 1,
         "Greek Cypriot": 0,
         "Arabic Cypriot": 0,
-        "Speaker Diversity": null
+        "Speaker Diversity": 0
       },
       "geometry": {
         "type": "Point",
@@ -5373,11 +5373,11 @@
         "location": [
           "International"
         ],
-        "Total": 0,
-        "Turkish Cypriot": 0,
+        "Total": 1,
+        "Turkish Cypriot": 1,
         "Greek Cypriot": 0,
         "Arabic Cypriot": 0,
-        "Speaker Diversity": null,
+        "Speaker Diversity": 0,
         "audio": 1
       },
       "geometry": {
