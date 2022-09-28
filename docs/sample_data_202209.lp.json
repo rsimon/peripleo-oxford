@@ -5102,8 +5102,8 @@
         "year": 2000
       },
       "audio": [
-        "liza_toskase_c42.wav | Male_67_2_conversational_Athens_d11.wav",
-        "liza_toskase_c42.wav | Male_67_2_conversational_Athens_d11.wav"
+        "liza_toskase_c42.wav",
+        "Male_67_2_conversational_Athens_d11.wav"
       ]
     },
     {
@@ -5228,10 +5228,10 @@
         "location": [
           "International"
         ],
-        "Total": 2,
+        "Total": 1,
         "Turkish Cypriot": 0,
         "Greek Cypriot": 0,
-        "Arabic Cypriot": 2,
+        "Arabic Cypriot": 1,
         "Speaker Diversity": 0,
         "audio": 1
       },
@@ -5247,8 +5247,7 @@
         "year": 2000
       },
       "audio": [
-        "1960_unknown_Safiye_Ayla_radio_c27.wav | Aşk_Tadında_cont_rise_8_07_extract.wav",
-        "1960_unknown_Safiye_Ayla_radio_c27.wav | Aşk_Tadında_cont_rise_8_07_extract.wav"
+        "syda-mp2-m5m6_ch1_40.695612_to_43.577614.wav"
       ]
     },
     {
@@ -5373,8 +5372,8 @@
         "location": [
           "International"
         ],
-        "Total": 1,
-        "Turkish Cypriot": 1,
+        "Total": 2,
+        "Turkish Cypriot": 2,
         "Greek Cypriot": 0,
         "Arabic Cypriot": 0,
         "Speaker Diversity": 0,
@@ -5392,7 +5391,8 @@
         "year": 2000
       },
       "audio": [
-        "syda-mp2-m5m6_ch1_40.695612_to_43.577614.wav"
+        "1960_unknown_Safiye_Ayla_radio_c27.wav",
+        "Aşk_Tadında_cont_rise_8_07_extract.wav"
       ]
     }
   ]

@@ -27,7 +27,7 @@ const Map = React.forwardRef((props, ref) => {
 
   const { store } = useContext(StoreContext);
 
-  const { search } = useSearch();
+  const { search, setFilter } = useSearch();
 
   const [ viewstate, setViewstate ] = useRecoilState(mapViewState);
 
@@ -111,6 +111,14 @@ const Map = React.forwardRef((props, ref) => {
 
   const onClosePopup = () =>
     setSelection(null);
+
+  const onShowInternational = () => {
+    // International records only exist for 2000s timeslot
+    setFilter('when', '2000s');
+
+    const bbox = [[20, 32], [39, 43]];    
+    mapRef.current.fitBounds(bbox);
+  }
   
   return (  
     <div className="p6o-map-container" ref={ref}>
@@ -182,6 +190,13 @@ const Map = React.forwardRef((props, ref) => {
       {hover && <HoverBubble config={config} {...hover} />}
 
       {currentTool}
+
+      <div className="p6o-off-the-map-container" onClick={onShowInternational}>
+        <button className="p6o-off-the-map">
+          <span className="caption">View more data outside Cyprus</span>
+          <span className="num-records">3 records</span>
+        </button>
+      </div>
     </div>
   )
 

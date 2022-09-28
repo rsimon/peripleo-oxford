@@ -53,13 +53,6 @@ const CustomizedHUD = props => {
             onClearFilter={onClearFilter} />
         }
       </div>
-
-      <div className="p6o-off-the-map-container">
-        <button className="p6o-off-the-map">
-          <span className="caption">View more data outside Cyprus</span>
-          <span className="num-records">5 records</span>
-        </button>
-      </div>
     </div>
   )
 

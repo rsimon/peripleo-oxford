@@ -35,46 +35,6 @@
     }
 
   }
-
-  .p6o-off-the-map-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    
-    .p6o-off-the-map {
-      background-color: rgba(255, 255, 255, 0.6);
-      outline: none;
-      border: none;
-      font-size: 14px;
-      color: rgba(51, 51, 51, 0.6);
-      transition: all 0.2s ease-in-out;
-      @include rounded-corners(3px);
-
-      span {
-        display: inline-block;
-        padding: 20px;
-      }
-
-      .caption {
-        font-weight: bold;
-      }
-
-      .num-records {
-        border-left: 1px solid #0000000f;
-      }
-    }
-
-    .p6o-off-the-map:hover {
-      background-color: #fff;
-      color: rgba(51, 51, 51, 1);
-      @include box-shadow(0, 0, 4px, 0.25);
-    }
-
-  }
   
 }
 
