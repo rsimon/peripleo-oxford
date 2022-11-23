@@ -100,7 +100,8 @@ const LayersCategorized = props => {
 
         const color = topValue ?
           (preConfiguredColors ?
-            preConfiguredColors[topValue] : SIGNATURE_COLOR[currentFacets.indexOf(topValue)]) : '#a2a2a2';
+            preConfiguredColors[topValue] : SIGNATURE_COLOR[currentFacets.indexOf(topValue) % SIGNATURE_COLOR.length]) :
+              '#a2a2a2';
 
         const opacity = (feature._facet.stats?.rel.length > 0) ?
           feature._facet.stats.rel[0][1] : 1;
